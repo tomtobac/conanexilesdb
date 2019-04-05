@@ -180,59 +180,60 @@
 				var self = $(this);
 				var id =self.data('id');
 
+				
 				$.getJSON('recipe.json', function(data) {
 				 
-					$.each(data, function(key, value){
+				 $.each(data, function(key, value){
 
-						if (value.RowName == id)
-						{
+					 if (value.RowName == id)
+					 {
+							 
+						 if (value.Ingredient1ID !== 'undefined' && value.Ingredient1ID != '' && value.Ingredient1ID != 0) {
+							 $.each(data, function(key3, value3){
+								 if (value.Ingredient1ID == value3.RowName) {
+									 value.Ingredient1IDName = value3.Name;
+								 }
+							 });
+						 }
 
-							if (value.Ingredient1ID !== 'undefined' && value.Ingredient1ID != '' && value.Ingredient1ID != 0) {
-                                $.each(data, function(key3, value3){
-                                    if (value.Ingredient1ID == value3.RowName) {
-                                        value.Ingredient1IDName = value3.Name;
-                                    }
-                                });
-                            }
+						 if (value.RepairItem2 !== 'undefined' && value.RepairItem2 != '' && value.RepairItem2 != 0) {
+							 $.each(data, function(key3, value3){
+								 if (value.RepairItem2 == value3.RowName) {
+									 value.RepairItem2Name = value3.Name;
+								 }
+							 });								
+						 }
 
-							if (value.RepairItem2 !== 'undefined' && value.RepairItem2 != '' && value.RepairItem2 != 0) {
-								$.each(data, function(key3, value3){
-									if (value.RepairItem2 == value3.RowName) {
-										value.RepairItem2Name = value3.Name;
-									}
-								});								
-							}
+						 if (value.RepairItem3 !== 'undefined' && value.RepairItem3 != '' && value.RepairItem3 != 0) {
+							 $.each(data, function(key3, value3){
+								 if (value.RepairItem3 == value3.RowName) {
+									 value.RepairItem3Name = value3.Name;
+								 }
+							 });								
+						 }
 
-							if (value.RepairItem3 !== 'undefined' && value.RepairItem3 != '' && value.RepairItem3 != 0) {
-								$.each(data, function(key3, value3){
-									if (value.RepairItem3 == value3.RowName) {
-										value.RepairItem3Name = value3.Name;
-									}
-								});								
-							}
+						 if (value.CraftingStations !== 'undefined' && value.CraftingStations != '' && value.CraftingStations != 0) {
+							 $.each(data, function(key3, value3){
+								 if (value.CraftingStations == value3.RowName) {
+									 value.CraftingStationsName = value3.RecipeName;
+								 }
+							 });								
+						 }
 
-                            if (value.CraftingStations !== 'undefined' && value.CraftingStations != '' && value.CraftingStations != 0) {
-								$.each(data, function(key3, value3){
-									if (value.CraftingStations == value3.RowName) {
-										value.CraftingStationsName = value3.RecipeName;
-									}
-								});								
-							}
+						 if (value.RequiredFuel !== 'undefined' && value.RequiredFuel != '' && value.RequiredFuel != 0) {
+							 $.each(data, function(key3, value3){
+								 if (value.RequiredFuel == value3.RowName) {
+									 value.RequiredFuelName = value3.Name;
+								 }
+							 });
+						 }
 
-                            if (value.RequiredFuel !== 'undefined' && value.RequiredFuel != '' && value.RequiredFuel != 0) {
-								$.each(data, function(key3, value3){
-									if (value.RequiredFuel == value3.RowName) {
-										value.RequiredFuelName = value3.Name;
-									}
-								});
-                            }
+						 doJob(value, self);
+					 }
 
-							doJob(value, self);
-						}
-
-					});   
-				
-				});
+				 });   
+			 
+			 });
 
 				function doJob(item, self){
 					var click_text = self.text().split('|');
