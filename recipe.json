@@ -39195,7 +39195,7 @@
 		"CraftXP": 84932,
 		"CraftingStations": 89301,
 		"RequiredFuel": 0,
-		"Icon": "https://conanexilesmap.com/conanexilesdb/Icons/epic_icon_venom_sword.epic_icon_venom_sword",
+		"Icon": "https://conanexilesmap.com/conanexilesdb/Icons/epic_icon_venom_sword.png",
 		"BuildingModule": "None",
 		"DestroyStationOnComplete": false,
 		"RecipeItemFlags": 0,
