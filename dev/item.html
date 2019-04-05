@@ -383,7 +383,8 @@
 						$(window).scrollTop(0);
 
 						var self = $(this);
-						var id =self.data('id');
+						var id = self.data('id');
+						location.href = 'item.html?id=' + id;
 						$.getJSON('data.json', function(data) {
 							$.each(data, function(key, value){
 								if (value.RowName == id) doJob(value, self);
