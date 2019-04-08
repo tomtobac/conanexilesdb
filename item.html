@@ -285,8 +285,6 @@
 				$('#result').css('display', 'none').html('');
 			}
 
-			$.ajaxSetup({ cache: false });
-
 			$('#search').keyup(function(){
 				if( this.value.length < 3 ) {
 					clearResults();
@@ -301,7 +299,7 @@
 				$.getJSON('data.json', function(data) {
 					$.each(data, function(key, value){
 						if (value.Name.search(expression) != -1) {
-							$('#result').css('display', 'block').append('<li class="list-group-item" data-id="'+value.RowName+'"><img src="'+value.Icon+'" height="64" width="64" class="img-thumbnail" /> '+value.Name+' | <span class="text-muted">'+value.ShortDesc+'</span></li>');
+							$('#result').css('display', 'block').append('<li class="list-group-item" data-id="'+value.RowName+'"><img src="'+value.Icon+'" height="64" width="64" class="img-thumbnail" /><h4>'+value.Name+'</h4><span class="text-muted">'+value.ShortDesc+'</span></li>');
 						}
 					});   
 				});
@@ -388,8 +386,7 @@
 						$.getJSON('data.json', function(data) {
 							$.each(data, function(key, value){
 								if (value.RowName == id) doJob(value, self);
-							});   
-						
+							});
 						});
 						e.preventDefault();
 					});
@@ -402,7 +399,24 @@
 			var itemId = urlParams.get('id');
 			if(itemId) {
 				getItem(itemId);
-			} 
+			}
+
+			var searchId = urlParams.get("search");
+
+			if(searchId) {
+				RegExp.quote = function(str) {
+					return str.replace(/([.?*+^$[\]\\(){}|-])/g, "\\$1");
+				};
+			var expression = new RegExp(RegExp.quote(searchId), "i");
+
+				$.getJSON('data.json', function(data) {
+					$.each(data, function(key, value){
+						if (value.Name.search(expression) != -1) {
+							$('#result').css('display', 'block').append('<li class="list-group-item" data-id="'+value.RowName+'"><img src="'+value.Icon+'" height="64" width="64" class="img-thumbnail" /><h4>'+value.Name+'</h4><span class="text-muted">'+value.ShortDesc+'</span></li>');
+						}
+					});
+				});
+			}
 
 		})();
 	</script>
