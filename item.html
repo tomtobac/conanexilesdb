@@ -325,7 +325,7 @@
 				$.getJSON('data.json', function(data) {
 					$.each(data, function(key, value){
 						if (value.Name.search(expression) != -1) {
-							$('#result').css('display', 'block').append('<li class="list-group-item" data-id="'+value.RowName+'"><img src="'+value.Icon+'" height="64" width="64" class="img-thumbnail" /><h4>'+value.Name+'</h4><span class="text-muted">'+value.ShortDesc+'</span></li>');
+							$('#result').css('display', 'block').append('<li class="list-group-item clearfix" data-id="'+value.RowName+'"><img src="'+value.Icon+'" height="64" width="64" class="img-thumbnail" /><div><h4>'+value.Name+'</h4><span class="text-muted">'+value.ShortDesc+'</span></div></li>');
 						}
 					});   
 				});
@@ -438,7 +438,7 @@
 				$.getJSON('data.json', function(data) {
 					$.each(data, function(key, value){
 						if (value.Name.search(expression) != -1) {
-							$('#result').css('display', 'block').append('<li class="list-group-item" data-id="'+value.RowName+'"><img src="'+value.Icon+'" height="64" width="64" class="img-thumbnail" /><h4>'+value.Name+'</h4><span class="text-muted">'+value.ShortDesc+'</span></li>');
+							$('#result').css('display', 'block').append('<li class="list-group-item clearfix" data-id="'+value.RowName+'"><img src="'+value.Icon+'" height="64" width="64" class="img-thumbnail" /><div><h4>'+value.Name+'</h4><span class="text-muted">'+value.ShortDesc+'</span></div></li>');
 						}
 					});
 				});

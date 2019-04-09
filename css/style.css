@@ -118,6 +118,24 @@ header h2{
   content: ", "    
 }
 
+#result li img{
+	float: left;
+	margin: 0 15px 0 0;
+	}
+#result li div{
+	float: left;
+}
+
+@media (max-width: 575.98px) {
+	#result li img{
+		float: none;
+		margin: 0 0 15px 0;
+	}
+	#result li div{
+		float: none;
+	}
+}
+
 ::-webkit-scrollbar-button {
 	display: none;
 	height: 13px;
