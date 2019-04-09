@@ -55,6 +55,10 @@ header h2{
 	background-image: url('../img/iconbg.png');
 	background-size: 100%;
 }
+.overlay{
+	position: absolute;
+	align-self: center;
+}
 #result{
 	display: none;
 	max-height: 400px;
