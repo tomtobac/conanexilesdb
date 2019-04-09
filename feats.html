@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Expires" content="0" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="img/fav.png" sizes="32x32" />
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">	
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/navigation.css">
+	<title>Conan Scrolls - Feats</title>
+</head>
+<body>
+		<script>
+				function openNav() {
+				  document.getElementById("mySidenav").style.width = "250px";
+				  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+				}
+				
+				function closeNav() {
+				  document.getElementById("mySidenav").style.width = "0";
+				  document.getElementById("main").style.marginLeft= "0";
+				  document.body.style.backgroundColor = "white";
+				}
+		</script>
+		<span style="font-size:30px;cursor:pointer;color:white" onclick="openNav()">&#9776; Menu</span>
+		<div id="mySidenav" class="sidenav">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				<a href="index.html">Home</a>
+				<a href="item.html">Items</a>
+				<a href="recipe.html">Recipes</a>
+				<a href="feats.html">Feats</a>
+				<a href="#"><s>Spells/Debuffs</s></a>
+		</div>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="text-center"><a href="index.html"><img src="img/conanscrolls.png" width="10%"></a></h2>
+					<form>
+					  <div class="form-group">
+					    <input type="text" name="search" id="search" class="form-control" placeholder="Search Feats..." autocomplete="off">
+						<ul class="list-group" id="result"></ul>
+					  </div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main id="data"></main>
+	<script id="data-template" type="text/x-handlebars-template">
+		<div class="container">
+			<div class="wrapper">
+				<div class="row">
+					<div class="col-12">
+						<h1 class="mb-4">Feat : {{{item.FeatName}}}</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-2"><img src="{{item.Icon}}" alt="" class="img-thumbnail img-responsive mb-4"></div>
+					<div class="col-md-10">
+                        <p class="mb-0"></p>
+                        <p class="short-desc mb-0"></p>
+						<p class="long-desc mb-4"></p>
+
+						<table class="table table-hover table-dark mb-4">
+							<tr>
+								<td>ID</td>
+								<td><span>{{item.RowName}}</span></td>
+							</tr>
+							<tr>
+								<td>Give On Spawn</td>
+								<td><span>{{item.GiveOnSpawn}}</span></td>
+							</tr>
+							<tr>
+								<td>Level Requirement</td>
+								<td><span>{{item.LevelRequirement}}</span></td>
+							</tr>
+							<tr>
+								<td>Feat Cost</td>
+								<td><span>{{item.FeatCost}}</span></td>
+							</tr>
+							<tr>
+								<td>Categories</td>
+								<td><span>{{item.Categories}}</span></td>
+							</tr>
+							<tr>
+                                <td>Prerequisite Feat</td>
+                                <td align="right">
+                                    {{#each item.PrerequisiteFeatNameArray}}
+                                    <a class="innerlink" href="#" data-id="{{id}}">{{name}}</a>
+                                    {{/each}}
+                                </td>
+							</tr>
+							<tr>
+                                <td>Reward Recipe</td>
+                                <td align="right">
+									{{#each item.RewardRecipeNameArray}}
+									<a class="innerlink-recipe" href="#" data-id="{{id}}">{{name}}</a>
+                                    {{/each}}
+                                </td>
+							</tr>
+							<tr>
+								<td>CornerStone Level</td>
+								<td><span>{{item.CornerStoneLevel}}</span></td>
+							</tr>
+							<tr>
+								<td>DLCPackage</td>
+								<td><span>{{item.DLCPackage}}</span></td>
+                            </tr>
+                        </table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="js/handlebars-v4.1.1.js"></script>
+	<script>
+
+		(function(){
+
+			function clearResults(){
+				$('#result').css('display', 'none').html('');
+			}
+
+			$('#search').keyup(function(){
+				if( this.value.length < 3 ) {
+					clearResults();
+					return;
+				}
+				clearResults();
+				var searchField = $('#search').val();
+				RegExp.quote = function(str) {
+					return str.replace(/([.?*+^$[\]\\(){}|-])/g, "\\$1");
+				};
+				var expression = new RegExp(RegExp.quote(searchField), "i");
+				$.getJSON('feats.json', function(data) {
+					$.each(data, function(key, value){
+						if (value.FeatName.search(expression) != -1) {
+							$('#result').css('display', 'block').append('<li class="list-group-item" data-id="'+value.RowName+'"><img src="'+value.Icon+'" height="64" width="64" class="img-thumbnail" /><h4>'+value.FeatName+'</h4></li>');
+						}
+					});   
+				});
+			});
+
+
+			function getItem(id) {
+
+				$.getJSON('feats.json', function(data) {
+                $.getJSON('recipe.json', function(data3){
+				  var self = $(this);
+					$.each(data, function(key, value){
+
+						if (value.RowName == id)
+						{
+
+							if (typeof value.Categories !== 'undefined' && value.Categories.length > 0) {
+								value.CategoriesNameArray = [];
+								$.each(value.Categories, function(key2, value2){
+										$.each(data, function(key3, value3){
+											if (value2 == value3.RowName) {
+												value.CategoriesNameArray.push({"name" : value3.Name, "id" : value3.RowName});
+											}
+										});
+								});
+							}
+
+                            if (typeof value.PrerequisiteFeat !== 'undefined' && value.PrerequisiteFeat.length > 0) {
+								value.PrerequisiteFeatNameArray = [];
+								$.each(value.PrerequisiteFeat, function(key2, value2){
+										$.each(data, function(key3, value3){
+											if (value2 == value3.RowName) {
+												value.PrerequisiteFeatNameArray.push({"name" : value3.FeatName, "id" : value3.RowName});
+											}
+										});
+								});
+							}
+
+                            if (typeof value.RewardRecipe !== 'undefined' && value.RewardRecipe.length > 0) {
+								value.RewardRecipeNameArray = [];
+								$.each(value.RewardRecipe, function(key2, value2){
+										$.each(data3, function(key3, value3){
+											if (value2 == value3.RowName) {
+												value.RewardRecipeNameArray.push({"name" : value3.RecipeName, "id" : value3.RowName});
+											}
+										});
+								});
+							}
+
+							doJob(value, self);
+						}
+
+					});   
+                });
+				});
+
+				function doJob(item, self){
+					var click_text = self.text().split('|');
+					$('#search').val($.trim(click_text[0]));
+					clearResults();
+
+					$('#data').css('display', 'block');
+
+					var source = document.getElementById("data-template").innerHTML;
+					var template = Handlebars.compile(source);
+
+					var context = {
+						item,
+						foo: [{'name':'nika'}, {'name':'jango'}],
+					};
+
+					var html = template(context);
+					document.getElementById("data").innerHTML = html;
+
+
+					$('.innerlink').on('click', function(e){
+						$(window).scrollTop(0);
+
+						var self = $(this);
+						var id = self.data('id');
+						location.href = 'feats.html?id=' + id;
+						$.getJSON('feats.json', function(data) {
+							$.each(data, function(key, value){
+								if (value.RowName == id) doJob(value, self);
+							});
+						});
+						e.preventDefault();
+                    });
+
+                    $('.innerlink-recipe').on('click', function(e){
+						$(window).scrollTop(0);
+
+						var self = $(this);
+						var id = self.data('id');
+						location.href = 'recipe.html?id=' + id;
+						$.getJSON('recipe.json', function(data) {
+							$.each(data, function(key, value){
+								if (value.RowName == id) doJob(value, self);
+							});
+						});
+						e.preventDefault();
+					});
+
+				}
+
+			};
+
+			var urlParams = new URLSearchParams(window.location.search);
+			var itemId = urlParams.get('id');
+			if(itemId) {
+				getItem(itemId);
+			}
+
+			var searchId = urlParams.get("search");
+
+			if(searchId) {
+				RegExp.quote = function(str) {
+					return str.replace(/([.?*+^$[\]\\(){}|-])/g, "\\$1");
+				};
+			var expression = new RegExp(RegExp.quote(searchId), "i");
+
+				$.getJSON('feats.json', function(data) {
+					$.each(data, function(key, value){
+						if (value.FeatName.search(expression) != -1) {
+							$('#result').css('display', 'block').append('<li class="list-group-item" data-id="'+value.RowName+'"><img src="'+value.Icon+'" height="64" width="64" class="img-thumbnail" /><h4>'+value.FeatName+'</h4></li>');
+						}
+					});
+				});
+			}
+
+		})();
+	</script>
+	<script src="js/feats.js"></script>
+
+</body>
+</html>
