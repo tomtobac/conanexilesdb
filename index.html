@@ -46,24 +46,20 @@
 				<a href="#"><s>Spells/Debuffs</s></a>
 		</div>
 	<header>
-		<div class="container">
-			<div class="row">
+		
+		<div class="container-main">
 				<div class="col-12">
-					<h2 class="text-center"><a href="index.html"><img src="img/conanscrolls.png" width="10%"></a></h2>
-					<form>
-					  <div class="form-group">
-					    <input type="text" name="search" id="search" class="form-control" placeholder="Search Items..." autocomplete="off">
-						<ul class="list-group" id="result"></ul>
-					  </div>
-					</form>
+					<h2 class="text-center"><a href="index.html"><img src="img/conanscrolls.png" width="15%"></a></h2>
+					<div><h1 class="text-center" >Conan Exiles Searchable Database</h1></div><br>
+					<h2 class="text-center"><a href="item.html"><img src="img/items.png" hspace="10"></a><a href="feats.html"><img src="img/feats.png" hspace="10"></a><a href="recipe.html"><img src="img/recipe.png" hspace="10"></a><a href="#"><img src="img/spells.png" hspace="10"></a></h2>
 				</div>
-			</div>
 		</div>
+
 	</header>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	<script src="js/handlebars-v4.1.1.js"></script>
 	<script src="js/item.js" type="text/javascript"></script>
-	<script>
+	<script>/* Old Code
 
 		(function(){
 
@@ -107,11 +103,11 @@
 				$.getJSON('data.json', function(data) {
 					$.each(data, function(key, value){
 						if (value.Name.search(expression) != -1) {
-							$('#result').css('display', 'block').append('<li class="list-group-item" data-id="'+value.RowName+'"><img src="'+value.Icon+'" height="32" width="32" class="img-thumbnail" /><h4>'+value.Name+'</h4><span class="text-muted">'+value.ShortDesc+'</span></li>');
+							$('#result').css('display', 'block').append('<li class="list-group-item clearfix" data-id="'+value.RowName+'"><img src="'+value.Icon+'" height="64" width="64" class="img-thumbnail" /><div><h4>'+value.Name+'</h4><span class="text-muted">'+value.ShortDesc+'</span></div></li>');
 						}
-					});
+					});   
 				});
-			}
+			}*/
 	</script>
 
 </body>
