@@ -315,13 +315,41 @@
 	<script src="js/handlebars-v4.1.1.js"></script>
 	<script>
 
+	function delay(callback, ms) {
+		var timer = 0;
+		return function() {
+			var context = this, args = arguments;
+			clearTimeout(timer);
+			timer = setTimeout(function () {
+			callback.apply(context, args);
+			}, ms || 0);
+		};
+	}
+
 		(function(){
+
+			var cache = {};
+
+			function getJSON(file) {
+				if (cache[file]) {
+					return Promise.resolve(cache[file])
+				} else {
+					return new Promise((resolve, reject) => { 
+							$.getJSON(file)
+								.done(data => {
+									cache[file] = data;
+									resolve(data);
+								})
+								.fail(reject) 
+						});
+				}
+			}
 
 			function clearResults(){
 				$('#result').css('display', 'none').html('');
 			}
 
-			$('#search').keyup(function(){
+			$('#search').keyup(delay(function(){
 				if( this.value.length < 3 ) {
 					clearResults();
 					return;
@@ -332,14 +360,16 @@
 					return str.replace(/([.?*+^$[\]\\(){}|-])/g, "\\$1");
 				};
 				var expression = new RegExp(RegExp.quote(searchField), "i");
-				$.getJSON('item.json', function(data) {
-					$.each(data, function(key, value){
-						if (value.Name.search(expression) != -1) {
-							$('#result').css('display', 'block').append('<li class="list-group-item clearfix" data-id="'+value.RowName+'"><img src="'+value.Icon+'" height="64" width="64" class="img-thumbnail" /><div><h4>'+value.Name+'</h4><span class="text-muted">'+value.ShortDesc+'</span></div></li>');
-						}
-					});   
-				});
-			});
+				getJSON('/item.json')
+					.then(data => {
+						$.each(data, function(key, value){
+							if (value.Name.search(expression) != -1) {
+								$('#result').css('display', 'block').append('<li class="list-group-item clearfix" data-id="'+value.RowName+'"><img src="'+value.Icon+'" height="64" width="64" class="img-thumbnail" /><div><h4>'+value.Name+'</h4><span class="text-muted">'+value.ShortDesc+'</span></div></li>');
+							}
+						});
+					})
+					.catch(console.error)
+			},500));
 
 
 			function getItem(id) {
