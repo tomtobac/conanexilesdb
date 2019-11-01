@@ -17,7 +17,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" href="img/fav.png" sizes="32x32" />
 	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/icon.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/navigation.css">
 	<title>Conan Scrolls - Items</title>
@@ -70,7 +71,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-2"><img src="{{item.Icon}}" alt="" class="img-thumbnail img-responsive mb-4"></div>
+					<div class="col-md-2"><img src="{{item.Icon}}" alt="" class="img-thumbnail-icon img-responsive mb-4"></div>
 					<div class="col-md-10">
 						<p class="mb-0">{{{item.Name}}}</p>
 						<p class="short-desc mb-0">{{{item.ShortDesc}}}</p>
@@ -321,7 +322,7 @@
 			}
 
 			$('#search').keyup(function(){
-				if( this.value.length < 4 ) {
+				if( this.value.length < 3 ) {
 					clearResults();
 					return;
 				}
@@ -331,7 +332,7 @@
 					return str.replace(/([.?*+^$[\]\\(){}|-])/g, "\\$1");
 				};
 				var expression = new RegExp(RegExp.quote(searchField), "i");
-				$.getJSON('data.json', function(data) {
+				$.getJSON('item.json', function(data) {
 					$.each(data, function(key, value){
 						if (value.Name.search(expression) != -1) {
 							$('#result').css('display', 'block').append('<li class="list-group-item clearfix" data-id="'+value.RowName+'"><img src="'+value.Icon+'" height="64" width="64" class="img-thumbnail" /><div><h4>'+value.Name+'</h4><span class="text-muted">'+value.ShortDesc+'</span></div></li>');
@@ -343,7 +344,7 @@
 
 			function getItem(id) {
 
-				$.getJSON('data.json', function(data) {
+				$.getJSON('item.json', function(data) {
 				  var self = $(this);
 					$.each(data, function(key, value){
 
@@ -418,7 +419,7 @@
 						var self = $(this);
 						var id = self.data('id');
 						location.href = 'item.html?id=' + id;
-						$.getJSON('data.json', function(data) {
+						$.getJSON('item.json', function(data) {
 							$.each(data, function(key, value){
 								if (value.RowName == id) doJob(value, self);
 							});
@@ -444,7 +445,7 @@
 				};
 			var expression = new RegExp(RegExp.quote(searchId), "i");
 
-				$.getJSON('data.json', function(data) {
+				$.getJSON('item.json', function(data) {
 					$.each(data, function(key, value){
 						if (value.Name.search(expression) != -1) {
 							$('#result').css('display', 'block').append('<li class="list-group-item clearfix" data-id="'+value.RowName+'"><img src="'+value.Icon+'" height="64" width="64" class="img-thumbnail" /><div><h4>'+value.Name+'</h4><span class="text-muted">'+value.ShortDesc+'</span></div></li>');

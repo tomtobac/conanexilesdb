@@ -1,0 +1,422 @@
+RowName,FeatName,Description,Icon,IconOverlay,GiveOnSpawn,LevelRequirement,FeatCost,Categories,PrerequisiteFeat,RewardRecipe,ShowInFeatWindow,CornerStoneLevel,DLCPackage
+1,Survivalist,Survivalist,https://conanexilesmap.com/conanexilesdb/Icons/icon_water_skin.png,None,TRUE,1,0,(Survival),,-4.10324E+24,TRUE,1,None
+2,Apprentice Mason,Apprentice Mason,https://conanexilesmap.com/conanexilesdb/Icons/Icon_Foundation-1.png,None,FALSE,3,1,(Construction),,-9.00015E+94,TRUE,10,None
+3,Bruiser,Bruiser,https://conanexilesmap.com/conanexilesdb/Icons/icon_exile_stone_maul.png,None,FALSE,8,2,(Combat),,-5.11525E+14,TRUE,30,None
+4,Warrior,Warrior,https://conanexilesmap.com/conanexilesdb/Icons/icon_primal_sword-1.png,None,FALSE,4,1,(Combat),,-5180151301,TRUE,10,None
+6,Archer,Archer,https://conanexilesmap.com/conanexilesdb/Icons/icon_basic_wood_bow.png,None,FALSE,5,2,(Combat),,-5.14015E+14,TRUE,50,None
+7,Arbelist,Arbelist,https://conanexilesmap.com/conanexilesdb/Icons/icon_crossbow-1.png,None,FALSE,15,4,(Combat),"(6,11,51000)",-5.14515E+19,FALSE,0,None
+8,Armorer,Armorer,https://conanexilesmap.com/conanexilesdb/Icons/icon_light_exile_armor.png,None,FALSE,10,2,(Armor),"-5,220,250,000",-8.9202E+209,TRUE,10,None
+9,Tanner,Tanner,https://conanexilesmap.com/conanexilesdb/Icons/icon_tannery.png,None,FALSE,10,2,(Survival),-50000,-8910442001,TRUE,0,None
+10,Blacksmith,Blacksmith,https://conanexilesmap.com/conanexilesdb/Icons/icon_furnace.png,None,FALSE,10,2,(Survival),-50000,-8.91019E+34,TRUE,0,None
+11,Carpenter,Carpenter,https://conanexilesmap.com/conanexilesdb/Icons/icon_woodworking_bench.png,None,FALSE,10,2,(Survival),-50000,-8.94012E+19,TRUE,0,None
+12,Defender,Defender,https://conanexilesmap.com/conanexilesdb/Icons/icon_wood_shield.png,None,FALSE,5,2,(Combat),,-5.16005E+14,TRUE,20,None
+4220,Boneshaper,Boneshaper,https://conanexilesmap.com/conanexilesdb/Icons/icon_dice_D4.png,None,FALSE,16,1,(Decoration),-80200,-4.22042E+23,TRUE,0,None
+4230,Painter,Painter,https://conanexilesmap.com/conanexilesdb/Icons/icon_painting1.png,None,FALSE,10,1,(Decoration),-80200,-4.23042E+39,TRUE,0,None
+11104,Fine Metal Crafts,Fine Metal Crafts,https://conanexilesmap.com/conanexilesdb/Icons/icon_coin_mould.png,None,FALSE,19,1,(Armor),"(51000,10)",-1.10751E+59,TRUE,70,None
+11114,Hiltmaker,Hiltmaker,https://conanexilesmap.com/conanexilesdb/Icons/icon_handle_short.png,None,FALSE,60,13,(Combat),"(4,10,51015)",-11114,TRUE,11,None
+11115,Haftmaker,Haftmaker,https://conanexilesmap.com/conanexilesdb/Icons/icon_handle_long.png,None,FALSE,60,13,(Combat),"(3,10,51015)",-11115,TRUE,31,None
+11116,Shield Framer,Shield Framer,https://conanexilesmap.com/conanexilesdb/Icons/icon_frame_shield.png,None,FALSE,60,13,(Combat),"-1,251,015",-11116,TRUE,25,None
+11117,Ropemaker,Ropemaker,https://conanexilesmap.com/conanexilesdb/Icons/icon_sturdy_string.png,None,FALSE,60,13,(Combat),"(6,11,51015)",-11117,TRUE,55,None
+11118,Shaftmaker,Shaftmaker,https://conanexilesmap.com/conanexilesdb/Icons/icon_dagger_handle.png,None,FALSE,60,13,(Combat),"(51951,10,51015)",-1.11181E+14,TRUE,45,None
+15000,Library of Esoteric Artifacts,Library of Esoteric Artifacts,https://conanexilesmap.com/conanexilesdb/Icons/icon_Skull2.png,None,FALSE,60,0,(Survival),,-83000,FALSE,999,None
+15001,Kinscourge Statue,Kinscourge Statue,https://conanexilesmap.com/conanexilesdb/Icons/icon_Statue_Tyros.png,None,FALSE,60,0,(Survival),-15000,-83001,FALSE,0,None
+15002,Serpentmen Statues,Serpentmen Statues,https://conanexilesmap.com/conanexilesdb/Icons/icon_Statue_Serpentman2.png,None,FALSE,60,0,(Survival),-15000,-8.30028E+24,FALSE,0,None
+15003,Kiln,Kiln,https://conanexilesmap.com/conanexilesdb/Icons/icon_CraftingStation_Furnace_Kiln.png,None,FALSE,60,0,(Survival),-15000,-83007,FALSE,0,None
+15004,Waymarkers,Waymarkers,https://conanexilesmap.com/conanexilesdb/Icons/icon_sign_standing_arrow_left.png,None,FALSE,60,0,(Survival),-15000,-4.16842E+15,FALSE,0,None
+15005,Merchant Signs,Merchant Signs,https://conanexilesmap.com/conanexilesdb/Icons/icon_sign_standing_alchemy.png,None,FALSE,60,0,(Survival),-15000,-4.15942E+71,FALSE,0,None
+15006,Practice Swords,Practice Swords,https://conanexilesmap.com/conanexilesdb/Icons/icon_wooden_sword.png,None,FALSE,60,0,(Survival),-15000,-41954197,FALSE,0,None
+15007,The Glasser,The Glasser,https://conanexilesmap.com/conanexilesdb/Icons/icon_broken_wine_bottle.png,None,FALSE,60,0,(Survival),-15000,-4189,FALSE,0,None
+15008,Reinforced Stool,Reinforced Stool,https://conanexilesmap.com/conanexilesdb/Icons/icon_battle_stool.png,None,FALSE,60,0,(Survival),-15000,-4190,FALSE,0,None
+15009,Battle Spatula,Battle Spatula,https://conanexilesmap.com/conanexilesdb/Icons/icon_battle_spatula.png,None,FALSE,60,0,(Survival),-15000,-4192,FALSE,0,None
+15010,Table Leg,Table Leg,https://conanexilesmap.com/conanexilesdb/Icons/icon_2h_table_leg_maul.png,None,FALSE,60,0,(Survival),-15000,-4194,FALSE,0,None
+15011,Gravedigger,Gravedigger,https://conanexilesmap.com/conanexilesdb/Icons/icon_2h_shovel.png,None,FALSE,60,0,(Survival),-15000,-4196,FALSE,0,None
+15012,Dead Leg,Dead Leg,https://conanexilesmap.com/conanexilesdb/Icons/icon_severed_leg.png,None,FALSE,60,0,(Survival),-15000,-4193,FALSE,0,None
+15013,Petrified Egg,Petrified Egg,https://conanexilesmap.com/conanexilesdb/Icons/icon_SerpentEgg.png,None,FALSE,60,0,(Survival),-15000,-4176,FALSE,0,None
+15014,Throne of Skelos,Throne of Skelos,https://conanexilesmap.com/conanexilesdb/Icons/icon_Chair_Throne_Serpentmen.png,None,FALSE,60,0,(Survival),-15000,-4177,FALSE,0,None
+15015,Venom-Infused Sword,Venom-Infused Sword,https://conanexilesmap.com/conanexilesdb/Icons/epic_icon_venom_sword.png,None,FALSE,60,0,(Survival),-15000,-51097,FALSE,0,None
+15016,Venom-Infused Two-Handed Sword,Venom-Infused Two-Handed Sword,https://conanexilesmap.com/conanexilesdb/Icons/icon_2h_sword.png,None,FALSE,60,0,(Survival),-15000,-51098,FALSE,0,None
+15017,Venom-Infused War-Axe,Venom-Infused War-Axe,https://conanexilesmap.com/conanexilesdb/Icons/epic_icon_envenomed_axe.png,None,FALSE,60,0,(Survival),-15000,-51099,FALSE,0,None
+15018,Venom-Infused Daggers,Venom-Infused Daggers,https://conanexilesmap.com/conanexilesdb/Icons/epic_icon_envenomed_dagger.png,None,FALSE,60,0,(Survival),-15000,-51100,FALSE,0,None
+15019,Venom-Infused Pike,Venom-Infused Pike,https://conanexilesmap.com/conanexilesdb/Icons/icon_envenomed_pike.png,None,FALSE,60,0,(Survival),-15000,-51101,FALSE,0,None
+15020,Tablet of Power,Tablet of Power,https://conanexilesmap.com/conanexilesdb/Icons/icon_knowledge_tablet.png,None,FALSE,60,0,(Survival),-15000,-11012,FALSE,0,None
+15021,Decorative Grindstone,Decorative Grindstone,https://conanexilesmap.com/conanexilesdb/Icons/icon_grindstone.png,None,FALSE,60,0,(Survival),-15000,-80553,FALSE,0,None
+15022,Bindings of the Dead,Bindings of the Dead,https://conanexilesmap.com/conanexilesdb/Icons/icon_deadbindings_lasso.png,None,FALSE,60,0,(Survival),-15000,-51965,FALSE,0,None
+15024,Skelos Cult Armors,Skelos Cult Armors,https://conanexilesmap.com/conanexilesdb/Icons/icon_cultist_hood.png,None,FALSE,60,0,(Survival),-15000,-5.19045E+49,FALSE,0,None
+15026,Essence of Rot,Essence of Rot,https://conanexilesmap.com/conanexilesdb/Icons/icon_essenceofrot.png,None,FALSE,60,0,(Survival),-15000,-11013,FALSE,0,None
+15027,Havoc and Malice,Havoc and Malice,https://conanexilesmap.com/conanexilesdb/Icons/icon_legendary_ymir_waraxe.png,None,FALSE,60,0,(Survival),-15000,-50524,FALSE,0,None
+15028,Whirlwind Blades,Whirlwind Blades,https://conanexilesmap.com/conanexilesdb/Icons/icon_legendary_sword_01.png,None,FALSE,60,0,(Survival),-15000,-50525,FALSE,0,None
+15029,Yoggite Chosen Mask,Yoggite Chosen Mask,https://conanexilesmap.com/conanexilesdb/Icons/epic_icon_CorruptedMask.png,None,FALSE,60,0,(Survival),-15000,-52510,FALSE,0,None
+18207,Specialist Cooking VIII,Specialist Cooking VIII,https://conanexilesmap.com/conanexilesdb/Icons/icon_feral_meat_feast.png,None,FALSE,0,0,(Survival),-18509,-1.82132E+19,FALSE,0,None
+18208,Specialist Cooking I,Specialist Cooking I,https://conanexilesmap.com/conanexilesdb/Icons/icon_darfari_bug_soup.png,None,FALSE,0,0,(Survival),-18509,-1.82342E+29,FALSE,0,None
+18209,Specialist Cooking II,Specialist Cooking II,https://conanexilesmap.com/conanexilesdb/Icons/icon_aloe_soup.png,None,FALSE,0,0,(Survival),-18509,-1.82362E+24,FALSE,0,None
+18210,Specialist Cooking III,Specialist Cooking III,https://conanexilesmap.com/conanexilesdb/Icons/icon_mixed_meat_mushup.png,None,FALSE,0,0,(Survival),-18509,-1.82232E+29,FALSE,0,None
+18211,Specialist Cooking IV,Specialist Cooking IV,https://conanexilesmap.com/conanexilesdb/Icons/icon_salted_exotic_meat.png,None,FALSE,0,0,(Survival),-18509,-1.82292E+29,FALSE,0,None
+18212,Specialist Cooking V,Specialist Cooking V,https://conanexilesmap.com/conanexilesdb/Icons/icon_exotic_meat_stew.png,None,FALSE,0,0,(Survival),-18509,-1.82442E+24,FALSE,0,None
+18213,Specialist Cooking VI,Specialist Cooking VI,https://conanexilesmap.com/conanexilesdb/Icons/icon_hearty_meal.png,None,FALSE,0,0,(Survival),-18509,-1.82512E+24,FALSE,0,None
+18214,Specialist Cooking VII,Specialist Cooking VII,https://conanexilesmap.com/conanexilesdb/Icons/icon_desert_chili.png,None,FALSE,0,0,(Survival),-18509,-1.82502E+19,FALSE,0,None
+18215,Specialist Cooking IX,Specialist Cooking IX,https://conanexilesmap.com/conanexilesdb/Icons/icon_mushroom_stew.png,None,FALSE,0,0,(Survival),-18509,-1.82392E+24,FALSE,0,None
+18216,Specialist Cooking X,Specialist Cooking X,https://conanexilesmap.com/conanexilesdb/Icons/icon_delicious_meat_strips.png,None,FALSE,0,0,(Survival),-18509,-1.82782E+24,FALSE,0,None
+18217,Pirate Cuisine,Pirate Cuisine,https://conanexilesmap.com/conanexilesdb/Icons/icon_spiced_beetroot_soup.png,None,FALSE,0,0,(Survival),-18509,-8.9922E+29,FALSE,0,None
+18218,Black Corsair Garb,Black Corsair Garb,https://conanexilesmap.com/conanexilesdb/Icons/icon_blackCorsair_lightmale_top.png,None,FALSE,60,0,(Armor),-52567,-8.99215E+29,FALSE,0,None
+18404,Bandages,Bandages,https://conanexilesmap.com/conanexilesdb/Icons/icon_healing_wraps.png,None,FALSE,25,6,(Survival),-1,-18404,TRUE,0,None
+18405,Improved Bandages,Improved Bandages,https://conanexilesmap.com/conanexilesdb/Icons/icon_numbing_wraps.png,None,FALSE,45,5,(Survival),-18404,-18405,TRUE,0,None
+18500,Apiarist,Apiarist,https://conanexilesmap.com/conanexilesdb/Icons/icon_beehive.png,None,FALSE,33,7,(Survival),-89001,-18500,TRUE,0,None
+18501,Master Apiarist,Master Apiarist,https://conanexilesmap.com/conanexilesdb/Icons/icon_beehive_improved.png,None,FALSE,53,11,(Survival),-18500,-18501,TRUE,0,None
+18502,Fisher,Fisher,https://conanexilesmap.com/conanexilesdb/Icons/icon_fishing_trap.png,None,FALSE,17,2,(Survival),-89001,-1.85022E+24,TRUE,0,None
+18506,Dried Preserves,Dried Preserves,https://conanexilesmap.com/conanexilesdb/Icons/icon_dryer.png,None,FALSE,19,2,(Survival),-89001,-18506,TRUE,0,None
+18507,Preservation box,Preservation box,https://conanexilesmap.com/conanexilesdb/Icons/icon_ice_box.png,None,FALSE,43,9,(Survival),-18506,-18507,TRUE,0,None
+18508,Improved Preservation box,Improved Preservation box,https://conanexilesmap.com/conanexilesdb/Icons/icon_blackice_box.png,None,FALSE,55,12,(Survival),-18507,-18508,TRUE,0,None
+18509,Stove,Stove,https://conanexilesmap.com/conanexilesdb/Icons/icon_cook_stove_2.png,None,FALSE,29,6,(Survival),-89010,-1.85092E+49,TRUE,0,None
+18510,Grinder,Grinder,https://conanexilesmap.com/conanexilesdb/Icons/icon_grinder.png,None,FALSE,17,4,(Survival),-51000,-18510,TRUE,0,None
+18515,Master Chef,Master Chef,https://conanexilesmap.com/conanexilesdb/Icons/icon_improved_stove.png,None,FALSE,55,12,(Survival),-18509,-18515,TRUE,0,None
+18517,Dismantling Bench,Dismantling Bench,https://conanexilesmap.com/conanexilesdb/Icons/icon_Crafting_Dismantler.png,None,FALSE,37,8,(Survival),"-1,052,000",-18999,TRUE,0,None
+18520,Peasant,Peasant,https://conanexilesmap.com/conanexilesdb/Icons/icon_planter_t1.png,None,FALSE,18,1,(Survival),,-1852018519,TRUE,20,None
+18521,Farmer,Farmer,https://conanexilesmap.com/conanexilesdb/Icons/icon_planter_t2.png,None,FALSE,38,2,(Survival),-18520,-18521,TRUE,0,None
+18522,Agriculturist,Agriculturist,https://conanexilesmap.com/conanexilesdb/Icons/icon_planter_t3.png,None,FALSE,58,3,(Survival),-18521,-18522,TRUE,0,None
+18661,Master Carpenter,Master Carpenter,https://conanexilesmap.com/conanexilesdb/Icons/icon_epic_carpenters_worktable.png,None,FALSE,57,6,(Survival),"(51015,11)",-8940216022,TRUE,0,None
+18995,Specialist Brewing III,Specialist Brewing III,https://conanexilesmap.com/conanexilesdb/Icons/icon_grog_desert.png,None,FALSE,0,0,(Survival),-89001,-1.80602E+19,FALSE,0,None
+18996,Fluid Press,Fluid Press,https://conanexilesmap.com/conanexilesdb/Icons/icon_liquid_separator_press.png,None,FALSE,28,2,(Survival),-89001,-1.85052E+14,TRUE,0,None
+18997,Brewing,Brewing,https://conanexilesmap.com/conanexilesdb/Icons/icon_ale.png,None,FALSE,37,4,(Survival),-18996,-1.80722E+49,TRUE,0,None
+18998,Specialist Brewing I,Specialist Brewing I,https://conanexilesmap.com/conanexilesdb/Icons/icon_Phykos_Rum.png,None,FALSE,0,0,(Survival),-89001,-1.80702E+14,FALSE,0,None
+18999,Specialist Brewing II,Specialist Brewing II,https://conanexilesmap.com/conanexilesdb/Icons/icon_resin_wine.png,None,FALSE,0,0,(Survival),-89001,-1.80772E+14,FALSE,0,None
+19000,Apprentice Tamer,Apprentice Tamer,https://conanexilesmap.com/conanexilesdb/Icons/icon_pet_pen_tier1.png,None,FALSE,13,3,(Survival),-51961,-5.1017E+169,TRUE,0,None
+19001,Tamer,Tamer,https://conanexilesmap.com/conanexilesdb/Icons/icon_pet_pen_tier2.png,None,FALSE,27,6,(Survival),-19000,-51017,TRUE,0,None
+19002,Master Tamer,Master Tamer,https://conanexilesmap.com/conanexilesdb/Icons/icon_pet_pen_tier3.png,None,FALSE,42,9,(Survival),-19001,-51018,TRUE,0,None
+41001,Arena Champion\'s Armor,Arena Champion\'s Armor,https://conanexilesmap.com/conanexilesdb/Icons/icon_legendary_ArenaMasterChest.png,None,FALSE,60,0,(Armor),-52567,-9.13119E+24,FALSE,0,None
+41002,Godbreaker Armor,Godbreaker Armor,https://conanexilesmap.com/conanexilesdb/Icons/icon_legendary_SK_iron_king_chest_rusty_M.png,None,FALSE,60,0,(Armor),-52567,-5.29915E+49,FALSE,0,None
+41003,Daggers of Dagon,Daggers of Dagon,https://conanexilesmap.com/conanexilesdb/Icons/epic_icon_DaggersOfDagon.png,None,FALSE,60,0,(Combat),-11118,-19616,FALSE,0,None
+41004,Warmaker Weapons,Warmaker Weapons,https://conanexilesmap.com/conanexilesdb/Icons/icon_legendary_2h_edge_iron_king_sword.png,None,FALSE,60,0,(Combat),-11115,-5180851809,FALSE,0,None
+41006,Deep Sea Fisher,Deep Sea Fisher,https://conanexilesmap.com/conanexilesdb/Icons/icon_Fishtrap_improved.png,None,FALSE,60,0,(Survival),-18502,-1.96112E+34,FALSE,0,None
+41007,Ancient Lemurian Sword,Ancient Lemurian Sword,https://conanexilesmap.com/conanexilesdb/Icons/epic_icon_HookSword.png,None,FALSE,60,0,(Combat),-11114,-19607,FALSE,0,None
+41008,Ancient Lemurian Shield,Ancient Lemurian Shield,https://conanexilesmap.com/conanexilesdb/Icons/epic_icon_CaptainsWheel.png,None,FALSE,60,0,(Combat),-11116,-19608,FALSE,0,None
+41009,Ancient Lemurian Trident,Ancient Lemurian Trident,https://conanexilesmap.com/conanexilesdb/Icons/epic_icon_TridentOfTrident.png,None,FALSE,60,0,(Combat),-11115,-19609,FALSE,0,None
+41010,Ancient Lemurian Aloe Extract,Ancient Lemurian Aloe Extract,https://conanexilesmap.com/conanexilesdb/Icons/icon_aloe_extract2.png,None,FALSE,60,0,(Survival),-89103,-19605,FALSE,0,None
+41011,Ancient Lemurian Bandages,Ancient Lemurian Bandages,https://conanexilesmap.com/conanexilesdb/Icons/icon_silkenwraps.png,None,FALSE,60,0,(Survival),-18405,-19606,FALSE,0,None
+41012,Broken Oar,Broken Oar,https://conanexilesmap.com/conanexilesdb/Icons/icon_Oar.png,None,FALSE,5,0,(Combat),-3,-51213,FALSE,0,None
+41013,Dagon\'s Breath,Dagon\'s Breath,https://conanexilesmap.com/conanexilesdb/Icons/icon_potion_of_dagonbreath.png,None,FALSE,60,0,(Survival),-89103,-18320,FALSE,0,None
+41015,Ancient Lemurian Axe,Ancient Lemurian Axe,https://conanexilesmap.com/conanexilesdb/Icons/epic_icon_LemurianAxe.png,None,FALSE,60,0,(Combat),-11114,-51603,FALSE,0,None
+41016,Star Metal Pickaxe,Star Metal Pickaxe,https://conanexilesmap.com/conanexilesdb/Icons/icon_multitool_starmetal.png,None,FALSE,60,7,(Survival),-51015,-51020,TRUE,0,None
+41020,Apprentice Tinker,Apprentice Tinker,https://conanexilesmap.com/conanexilesdb/Icons/icon_repair_kit_plant_fiber.png,None,FALSE,12,2,(Survival),"(51000,10,8)",-4102041024,TRUE,60,None
+41021,Journeyman Tinker,Journeyman Tinker,https://conanexilesmap.com/conanexilesdb/Icons/icon_repair_kit_hide.png,None,FALSE,24,3,(Survival),-41020,-4102141025,TRUE,0,None
+41022,Tinker,Tinker,https://conanexilesmap.com/conanexilesdb/Icons/icon_repair_kit_leather.png,None,FALSE,36,2,(Survival),-41021,-4102241026,TRUE,0,None
+41023,Master Tinker,Master Tinker,https://conanexilesmap.com/conanexilesdb/Icons/icon_repair_kit_thick_leather.png,None,FALSE,48,5,(Survival),-41022,-4102341027,TRUE,0,None
+41033,Torch,Torch,https://conanexilesmap.com/conanexilesdb/Icons/icon_torch.png,None,FALSE,5,1,(Survival),-1,-41033,TRUE,0,None
+41051,Master Weaponsmith,Master Weaponsmith,https://conanexilesmap.com/conanexilesdb/Icons/Icon_modkit_wpn_increaseDamage_t3.png,None,FALSE,51,6,(Combat),"-4,105,551,014",-4.10544E+29,TRUE,0,None
+41055,Weaponsmith,Weaponsmith,https://conanexilesmap.com/conanexilesdb/Icons/Icon_modkit_wpn_increaseDamage_t2.png,None,FALSE,39,4,(Combat),"-4,106,352,000",-4.10534E+19,TRUE,0,None
+41063,Apprentice Weaponsmith,Apprentice Weaponsmith,https://conanexilesmap.com/conanexilesdb/Icons/Icon_modkit_wpn_increaseDamage_t1.png,None,FALSE,26,3,(Combat),"-1,051,000",-4.10524E+24,TRUE,70,None
+41064,Apprentice Armorsmith,Apprentice Armorsmith,https://conanexilesmap.com/conanexilesdb/Icons/Icon_modkit_arm_increaseArmor_t1.png,None,FALSE,26,3,(Armor),-8,-4.10694E+14,TRUE,40,None
+41065,Armorsmith,Armorsmith,https://conanexilesmap.com/conanexilesdb/Icons/Icon_modkit_arm_increaseArmor_t2.png,None,FALSE,39,4,(Armor),-41064,-4107041076,TRUE,0,None
+41066,Master Armorsmith,Master Armorsmith,https://conanexilesmap.com/conanexilesdb/Icons/Icon_modkit_arm_increaseArmor_t3.png,None,FALSE,51,6,(Armor),-41065,-4107141077,TRUE,0,None
+50000,Stone Tools,Stone Tools,https://conanexilesmap.com/conanexilesdb/Icons/icon_pickaxe-1.png,None,TRUE,1,0,(Survival),,-5100151011,TRUE,5,None
+50001,Apprentice Butcher,Apprentice Butcher,https://conanexilesmap.com/conanexilesdb/Icons/icon_skinning_dagger_stone.png,None,FALSE,3,1,(Survival),-50000,-5130841034,FALSE,0,None
+50002,Journeyman Butcher,Journeyman Butcher,https://conanexilesmap.com/conanexilesdb/Icons/icon_skinning_dagger_iron.png,None,FALSE,15,2,(Survival),-51000,-5130941036,TRUE,0,None
+50004,Butcher,Butcher,https://conanexilesmap.com/conanexilesdb/Icons/icon_skinning_dagger_steel.png,None,FALSE,31,4,(Survival),-52000,-5131041028,TRUE,0,None
+50005,Master Butcher,Master Butcher,https://conanexilesmap.com/conanexilesdb/Icons/icon_skinning_dagger_hardened_steel.png,None,FALSE,51,6,(Survival),-51014,-5131141029,TRUE,0,None
+50006,Legendary Butcher,Legendary Butcher,https://conanexilesmap.com/conanexilesdb/Icons/icon_skinning_dagger_starmetal.png,None,FALSE,56,6,(Survival),-51015,-5131241030,TRUE,0,None
+50489,Two-Handed Iron Great Axe,Two-Handed Iron Great Axe,https://conanexilesmap.com/conanexilesdb/Icons/icon_2hAxe_iron.png,None,FALSE,16,4,(Combat),-3,-50489,TRUE,0,None
+50491,Star Metal Short Sword,Star Metal Short Sword,https://conanexilesmap.com/conanexilesdb/Icons/epic_icon_gladius_starmetal.png,None,FALSE,60,13,(Combat),-11114,-50498,TRUE,0,None
+50492,Star Metal Great Axe,Star Metal Great Axe,https://conanexilesmap.com/conanexilesdb/Icons/epic_icon_2hAxe_starmetal.png,None,FALSE,60,13,(Combat),-11115,-50492,TRUE,0,None
+50495,Iron Short Sword,Iron Short Sword,https://conanexilesmap.com/conanexilesdb/Icons/icon_gladius_iron.png,None,FALSE,12,3,(Combat),-4,-50495,TRUE,0,None
+51000,Iron Tools,Iron Tools,https://conanexilesmap.com/conanexilesdb/Icons/icon_iron_pickaxe.png,None,FALSE,10,3,(Survival),-50000,-5.10025E+14,TRUE,0,None
+51014,Hardened Steel Tools,Hardened Steel Tools,https://conanexilesmap.com/conanexilesdb/Icons/icon_hardened_steel_pickaxe.png,None,FALSE,50,11,(Survival),-52000,-5.10225E+14,TRUE,0,None
+51015,Star Metal Tools,Star Metal Tools,https://conanexilesmap.com/conanexilesdb/Icons/icon_star_metal_pickaxe.png,None,FALSE,55,12,(Survival),-51014,-5.10235E+19,TRUE,0,None
+51016,Frost Smithing,Frost Smithing,https://conanexilesmap.com/conanexilesdb/Icons/icon_black_ice_1h_sword.png,None,FALSE,60,0,(Combat),-11114,-5197551976,FALSE,0,None
+51017,Black Ice Pickaxe,Black Ice Pickaxe,https://conanexilesmap.com/conanexilesdb/Icons/icon_black_ice_cimmerian_steel_pick.png,None,FALSE,60,0,(Survival),-51014,-51977,FALSE,0,None
+51018,Black Ice Throwing Axe,Black Ice Throwing Axe,https://conanexilesmap.com/conanexilesdb/Icons/icon_black_ice_throwing_axe.png,None,FALSE,60,0,(Combat),-11118,-51943,FALSE,0,None
+51019,Black Ice Javelin,Black Ice Javelin,https://conanexilesmap.com/conanexilesdb/Icons/icon_black_ice_javelin.png,None,FALSE,60,0,(Combat),-11118,-51598,FALSE,0,None
+51021,Pickaxe,Pickaxe,https://conanexilesmap.com/conanexilesdb/Icons/icon_multi_tool.png,None,FALSE,43,9,(Survival),-52000,-51021,TRUE,0,None
+51022,Katana,Katana,https://conanexilesmap.com/conanexilesdb/Icons/icon_Japan_2hSword_Katana_variant_1.png,None,FALSE,21,5,(Combat),-3,-51091,TRUE,0,None
+51023,Star Metal Katana,Star Metal Katana,https://conanexilesmap.com/conanexilesdb/Icons/epic_icon_Japan_2hSword_Katana_variant_2.png,None,FALSE,60,13,(Combat),-11115,-51094,TRUE,0,None
+51044,Iron Two-Handed Sword,Iron Two-Handed Sword,https://conanexilesmap.com/conanexilesdb/Icons/icon_iron_2h_sword.png,None,FALSE,21,5,(Combat),"-351,000",-51044,TRUE,0,None
+51047,Steel Two-Handed Sword,Steel Two-Handed Sword,https://conanexilesmap.com/conanexilesdb/Icons/icon_iron_2h_sword.png,None,FALSE,31,7,(Combat),"-352,000",-51047,TRUE,0,None
+51060,Hardened Two-Handed Sword,Hardened Two-Handed Sword,https://conanexilesmap.com/conanexilesdb/Icons/icon_hardened_steel_2h_sword.png,None,FALSE,52,11,(Combat),"(3,10,51014)",-51060,TRUE,0,None
+51063,Star Metal Sword,Star Metal Sword,https://conanexilesmap.com/conanexilesdb/Icons/icon_star_metal_1h_sword.png,None,FALSE,60,13,(Combat),-11114,-51069,TRUE,0,None
+51064,Two-Handed Star Metal Sword,Two-Handed Star Metal Sword,https://conanexilesmap.com/conanexilesdb/Icons/icon_star_metal_2h_sword.png,None,FALSE,60,13,(Combat),-11115,-51063,TRUE,0,None
+51066,Kinscourge Weapons,Kinscourge Weapons,https://conanexilesmap.com/conanexilesdb/Icons/icon_2h_edge_death_knight_sword.png,None,FALSE,60,0,(Combat),,-5106651075,FALSE,110,None
+51078,Hardened Steel Mace,Hardened Steel Mace,https://conanexilesmap.com/conanexilesdb/Icons/icon_hardened_steel_mace.png,None,FALSE,56,12,(Combat),"(4,10,51014)",-51078,TRUE,0,None
+51081,Star Metal Mace,Star Metal Mace,https://conanexilesmap.com/conanexilesdb/Icons/icon_star_metal_mace.png,None,FALSE,60,13,(Combat),-11114,-51081,TRUE,0,None
+51084,Ancient Javelin,Ancient Javelin,https://conanexilesmap.com/conanexilesdb/Icons/icon_ancient_javelin.png,None,FALSE,48,5,(Combat),"(51951,10,52000)",-51084,TRUE,0,None
+51087,Ancient Mace,Ancient Mace,https://conanexilesmap.com/conanexilesdb/Icons/icon_ancient_mace.png,None,FALSE,47,10,(Combat),"(4,10,52000)",-51087,TRUE,0,None
+51090,Ancient Pike,Ancient Pike,https://conanexilesmap.com/conanexilesdb/Icons/icon_ancient_spear.png,None,FALSE,50,11,(Combat),"(3,10,52000)",-51090,TRUE,0,None
+51102,Blunted Javelin,Blunted Javelin,https://conanexilesmap.com/conanexilesdb/Icons/icon_blunted_javelin.png,None,FALSE,21,1,(Combat),"(51951,10)",-51102,TRUE,0,None
+51103,Blunted Arrow,Blunted Arrow,https://conanexilesmap.com/conanexilesdb/Icons/icon_blunt_arrow.png,None,FALSE,35,4,(Combat),-6,-51103,TRUE,0,None
+51151,Iron Warhammer,Iron Warhammer,https://conanexilesmap.com/conanexilesdb/Icons/icon_warhammer.png,None,FALSE,20,5,(Combat),"(3,10,51000)",-51151,TRUE,0,None
+51154,Steel Warhammer,Steel Warhammer,https://conanexilesmap.com/conanexilesdb/Icons/icon_steel_warhammer.png,None,FALSE,32,7,(Combat),"(3,10,52000)",-51154,TRUE,0,None
+51155,Ancient Warhammer,Ancient Warhammer,https://conanexilesmap.com/conanexilesdb/Icons/icon_ancient_warhammer.png,None,FALSE,44,9,(Combat),"(3,10,52000)",-51155,TRUE,0,None
+51156,Hardened Steel Hammer,Hardened Steel Hammer,https://conanexilesmap.com/conanexilesdb/Icons/icon_hardened_steel_warhammer.png,None,FALSE,56,12,(Combat),"(3,10,51014)",-51156,TRUE,0,None
+51159,Star Metal Hammer,Star Metal Hammer,https://conanexilesmap.com/conanexilesdb/Icons/icon_star_metal_warhammer.png,None,FALSE,60,13,(Combat),-11115,-51159,TRUE,0,None
+51186,Flanged Iron Mace,Flanged Iron Mace,https://conanexilesmap.com/conanexilesdb/Icons/icon_iron_mace.png,None,FALSE,11,3,(Combat),"(4,10,51000)",-51186,TRUE,0,None
+51189,Iron Corseque,Iron Corseque,https://conanexilesmap.com/conanexilesdb/Icons/icon_iron_spear_improved.png,None,FALSE,22,5,(Combat),"(3,10,51000)",-51189,TRUE,0,None
+51192,Balanced Iron Javelin,Balanced Iron Javelin,https://conanexilesmap.com/conanexilesdb/Icons/icon_iron_balanced_javelin.png,None,FALSE,24,3,(Combat),"(51951,10,51000)",-51192,TRUE,0,None
+51195,Iron War Axe,Iron War Axe,https://conanexilesmap.com/conanexilesdb/Icons/icon_sharp_iron_axe.png,None,FALSE,28,6,(Combat),"(4,10,51000)",-51195,TRUE,0,None
+51198,Studded Iron Mace,Studded Iron Mace,https://conanexilesmap.com/conanexilesdb/Icons/icon_iron_studded_mace.png,None,FALSE,29,6,(Combat),"(4,10,51000)",-51198,TRUE,0,None
+51201,Steel Throwing Axe,Steel Throwing Axe,https://conanexilesmap.com/conanexilesdb/Icons/icon_steel_throwing_axe.png,None,FALSE,34,4,(Combat),"(51951,10,52000)",-51201,TRUE,0,None
+51206,Steel Javelin,Steel Javelin,https://conanexilesmap.com/conanexilesdb/Icons/icon_steel_tipped_javelin.png,None,FALSE,36,4,(Combat),"-5,195,152,000",-51206,TRUE,0,None
+51209,Steel Spear,Steel Spear,https://conanexilesmap.com/conanexilesdb/Icons/icon_steel_tipped_spear.png,None,FALSE,37,8,(Combat),"(3,10,52000)",-51209,TRUE,0,None
+51212,Ancient War Axe,Ancient War Axe,https://conanexilesmap.com/conanexilesdb/Icons/icon_ancient_axe.png,None,FALSE,46,10,(Combat),"(4,10,52000)",-51212,TRUE,0,None
+51215,Ancient Throwing Axe,Ancient Throwing Axe,https://conanexilesmap.com/conanexilesdb/Icons/icon_ancient_throwing_axe.png,None,FALSE,46,5,(Combat),"(51951,10,52000)",-51215,TRUE,0,None
+51302,Iron Mace,Iron Mace,https://conanexilesmap.com/conanexilesdb/Icons/icon_iron_mace_morningstar.png,None,FALSE,20,5,(Combat),"(4,10,51000)",-51302,TRUE,0,None
+51305,Steel Mace,Steel Mace,https://conanexilesmap.com/conanexilesdb/Icons/icon_steel_mace.png,None,FALSE,38,8,(Combat),"(4,10,52000)",-51305,TRUE,0,None
+51402,Hyrkanian Bow,Hyrkanian Bow,https://conanexilesmap.com/conanexilesdb/Icons/icon_composite_bow.png,None,FALSE,30,7,(Combat),"(6,11,52000)",-51402,TRUE,0,None
+51406,Ancient Bow,Ancient Bow,https://conanexilesmap.com/conanexilesdb/Icons/icon_ancient_bow.png,None,FALSE,45,10,(Combat),"(6,11,52000)",-51406,TRUE,0,None
+51407,Light Hyrkanian Bow,Light Hyrkanian Bow,https://conanexilesmap.com/conanexilesdb/Icons/icon_composite_bow.png,None,FALSE,20,5,(Combat),"(6,11,51000)",-51407,TRUE,0,None
+51454,Heavy Crossbow,Heavy Crossbow,https://conanexilesmap.com/conanexilesdb/Icons/icon_steel_crossbow.png,None,FALSE,40,9,(Combat),"(6,11,52000)",-51454,FALSE,0,None
+51477,Obsidian Warhammer,Obsidian Warhammer,https://conanexilesmap.com/conanexilesdb/Icons/icon_obsidian_warhammer.png,None,FALSE,60,13,(Combat),-11115,-51476,FALSE,0,None
+51478,Obsidian Two-Handed Sword,Obsidian Two-Handed Sword,https://conanexilesmap.com/conanexilesdb/Icons/icon_obsidian_2h_sword.png,None,FALSE,60,13,(Combat),-11115,-51479,FALSE,0,None
+51479,Obsidian Spear,Obsidian Spear,https://conanexilesmap.com/conanexilesdb/Icons/icon_obsidian_spear.png,None,FALSE,60,13,(Combat),-11115,-51491,FALSE,0,None
+51480,Obsidian Arrow,Obsidian Arrow,https://conanexilesmap.com/conanexilesdb/Icons/icon_obsidian_arrow.png,None,FALSE,60,7,(Combat),-11117,-51503,FALSE,0,None
+51481,Obsidian Dagger,Obsidian Dagger,https://conanexilesmap.com/conanexilesdb/Icons/icon_obsidian_dagger.png,None,FALSE,60,13,(Combat),-11118,-51482,FALSE,0,None
+51482,Obsidian Shield,Obsidian Shield,https://conanexilesmap.com/conanexilesdb/Icons/icon_obsidian_shield.png,None,FALSE,60,13,(Combat),-11116,-51488,FALSE,0,None
+51483,Obsidian Sword,Obsidian Sword,https://conanexilesmap.com/conanexilesdb/Icons/icon_obsidian_sword.png,None,FALSE,60,13,(Combat),-11114,-51494,FALSE,0,None
+51484,Obsidian Mace,Obsidian Mace,https://conanexilesmap.com/conanexilesdb/Icons/icon_obsidian_mace.png,None,FALSE,60,13,(Combat),-11114,-51485,FALSE,0,None
+51505,Serpent-Man Crossbow,Serpent-Man Crossbow,https://conanexilesmap.com/conanexilesdb/Icons/icon_serpentmen_crossbow.png,None,FALSE,60,0,(Combat),-11117,-51505,FALSE,0,None
+51508,Serpent-Man Shield,Serpent-Man Shield,https://conanexilesmap.com/conanexilesdb/Icons/icon_serpentmen_shield.png,None,FALSE,60,0,(Combat),-11116,-51508,FALSE,0,None
+51511,Serpent-Man Daggers,Serpent-Man Daggers,https://conanexilesmap.com/conanexilesdb/Icons/icon_serpentmen_dagger.png,None,FALSE,60,0,(Combat),-11118,-51511,FALSE,0,None
+51514,Serpent-Man Pike,Serpent-Man Pike,https://conanexilesmap.com/conanexilesdb/Icons/icon_serpentmen_spear.png,None,FALSE,60,0,(Combat),-11115,-51514,FALSE,0,None
+51517,Serpent-Man Sword,Serpent-Man Sword,https://conanexilesmap.com/conanexilesdb/Icons/icon_serpentmen_sword.png,None,FALSE,60,0,(Combat),-11114,-51517,FALSE,0,None
+51520,Serpent-Man War Axe,Serpent-Man War Axe,https://conanexilesmap.com/conanexilesdb/Icons/icon_serpentmen_waraxe.png,None,FALSE,60,0,(Combat),-11114,-51520,FALSE,0,None
+51523,Serpent-Man Warhammer,Serpent-Man Warhammer,https://conanexilesmap.com/conanexilesdb/Icons/icon_serpentmen_warhammer.png,None,FALSE,60,0,(Combat),-11115,-51523,FALSE,0,None
+51526,Serpent-Man Mace,Serpent-Man Mace,https://conanexilesmap.com/conanexilesdb/Icons/icon_serpentmen_mace.png,None,FALSE,60,0,(Combat),-11114,-51526,FALSE,0,None
+51529,Serpent-Man Arrow,Serpent-Man Arrow,https://conanexilesmap.com/conanexilesdb/Icons/icon_serpentmen_arrow.png,None,FALSE,60,0,(Combat),-11117,-51529,FALSE,0,None
+51581,Obsidian Tools,Obsidian Tools,https://conanexilesmap.com/conanexilesdb/Icons/icon_obsidian_pick.png,None,FALSE,60,13,(Survival),-51015,-5.15815E+24,FALSE,0,None
+51584,Serpent-Man Javelin,Serpent-Man Javelin,https://conanexilesmap.com/conanexilesdb/Icons/icon_serpentmen_javelin.png,None,FALSE,60,13,(Combat),-11118,-51584,FALSE,0,None
+51585,Obsidian Javelin,Obsidian Javelin,https://conanexilesmap.com/conanexilesdb/Icons/icon_obsidian_javelin.png,None,FALSE,60,7,(Combat),-11118,-51585,FALSE,0,None
+51586,Star Metal Bow,Star Metal Bow,https://conanexilesmap.com/conanexilesdb/Icons/icon_star_metal_bow.png,None,FALSE,60,13,(Combat),-11117,-51586,TRUE,0,None
+51589,Hardened Steel Bow,Hardened Steel Bow,https://conanexilesmap.com/conanexilesdb/Icons/icon_harded_steel_bow.png,None,FALSE,51,11,(Combat),"(6,11,51014)",-51589,TRUE,0,None
+51592,Lemurian Pike,Lemurian Pike,https://conanexilesmap.com/conanexilesdb/Icons/icon_lemurian_2hSpear.png,None,FALSE,60,0,(Combat),-11115,-51592,FALSE,0,None
+51593,Lemurian Sword,Lemurian Sword,https://conanexilesmap.com/conanexilesdb/Icons/icon_lemurian_sword.png,None,FALSE,60,0,(Combat),-11114,-51593,FALSE,0,None
+51595,Hardened Steel Javelin,Hardened Steel Javelin,https://conanexilesmap.com/conanexilesdb/Icons/icon_hardened_steel_javelin.png,None,FALSE,53,11,(Combat),"(51951,10,51014)",-51595,TRUE,0,None
+51599,Acheronian Two-Handed Sword,Acheronian Two-Handed Sword,https://conanexilesmap.com/conanexilesdb/Icons/icon_acheron_2h_sword.png,None,FALSE,60,13,(Combat),-11115,-51599,TRUE,0,None
+51602,Wooden Targe,Wooden Targe,https://conanexilesmap.com/conanexilesdb/Icons/icon_ornamented_wood_shield.png,None,FALSE,11,3,(Combat),"-1,251,000",-51602,TRUE,0,None
+51611,Iron Targe,Iron Targe,https://conanexilesmap.com/conanexilesdb/Icons/icon_iron_shield-1.png,None,FALSE,20,5,(Combat),"-1,251,000",-5161151497,TRUE,0,None
+51621,Steel Heater Shield,Steel Heater Shield,https://conanexilesmap.com/conanexilesdb/Icons/icon_heater_shield.png,None,FALSE,32,7,(Combat),"-1,252,000",-51621,TRUE,0,None
+51622,Ancient Shield,Ancient Shield,https://conanexilesmap.com/conanexilesdb/Icons/icon_ancient_iron_shield.png,None,FALSE,45,10,(Combat),"-1,252,000",-51622,TRUE,0,None
+51628,Hardened Steel Shield,Hardened Steel Shield,https://conanexilesmap.com/conanexilesdb/Icons/icon_hardened_steel_shield.png,None,FALSE,52,11,(Combat),"-1,251,014",-51628,TRUE,0,None
+51631,Star Metal Shield,Star Metal Shield,https://conanexilesmap.com/conanexilesdb/Icons/icon_star_metal_shield.png,None,FALSE,60,13,(Combat),-11116,-51631,TRUE,0,None
+51711,Iron Pike,Iron Pike,https://conanexilesmap.com/conanexilesdb/Icons/icon_long_spear-1.png,None,FALSE,15,4,(Combat),"(3,10,51000)",-51711,TRUE,0,None
+51712,Steel Trident,Steel Trident,https://conanexilesmap.com/conanexilesdb/Icons/icon_trident.png,None,FALSE,43,9,(Combat),"(3,10,52000)",-51712,TRUE,0,None
+51723,Star Metal Spear,Star Metal Spear,https://conanexilesmap.com/conanexilesdb/Icons/icon_star_metal_spear.png,None,FALSE,60,13,(Combat),-11115,-51723,TRUE,0,None
+51726,Hardened Steel Spear,Hardened Steel Spear,https://conanexilesmap.com/conanexilesdb/Icons/icon_hardened_steel_spear.png,None,FALSE,59,12,(Combat),"(3,10,51014)",-51726,TRUE,0,None
+51811,Iron Broadsword,Iron Broadsword,https://conanexilesmap.com/conanexilesdb/Icons/icon_exile_broadsword.png,None,FALSE,10,3,(Combat),"-451,000",-51811,TRUE,0,None
+51812,Stygian Khopesh,Stygian Khopesh,https://conanexilesmap.com/conanexilesdb/Icons/icon_khopesh-1.png,None,FALSE,16,4,(Combat),"(4,10,51000)",-51812,TRUE,0,None
+51813,Ancient Khopesh,Ancient Khopesh,https://conanexilesmap.com/conanexilesdb/Icons/icon_ancient_iron_sword.png,None,FALSE,45,10,(Combat),"(4,10,52000)",-51813,TRUE,0,None
+51821,Cutlass,Cutlass,https://conanexilesmap.com/conanexilesdb/Icons/icon_cutlass.png,None,FALSE,25,6,(Combat),"(4,10,51000)",-51821,TRUE,0,None
+51822,Falcata,Falcata,https://conanexilesmap.com/conanexilesdb/Icons/icon_falcata.png,None,FALSE,38,8,(Combat),"(4,10,52000)",-51822,TRUE,0,None
+51831,Longsword,Longsword,https://conanexilesmap.com/conanexilesdb/Icons/icon_longsword.png,None,FALSE,30,7,(Combat),"(4,10,52000)",-51831,TRUE,0,None
+51833,Darfari Weapons,Darfari Weapons,https://conanexilesmap.com/conanexilesdb/Icons/icon_yog_cleaver.png,None,FALSE,10,0,(Combat),-4,-5.18335E+14,FALSE,0,None
+51841,Hardened Steel Sword,Hardened Steel Sword,https://conanexilesmap.com/conanexilesdb/Icons/icon_hardened_steel_1h_sword.png,None,FALSE,50,11,(Combat),"(4,10,51014)",-51841,TRUE,0,None
+51844,Hardened Steel War Axe,Hardened Steel War Axe,https://conanexilesmap.com/conanexilesdb/Icons/icon_hardened_steel_waraxe.png,None,FALSE,56,12,(Combat),"(4,10,51014)",-51844,TRUE,0,None
+51851,Cimmerian Battle-axe,Cimmerian Battle-axe,https://conanexilesmap.com/conanexilesdb/Icons/icon_cimmerian_battleaxe.png,None,FALSE,40,9,(Combat),"(4,10,52000)",-51851,TRUE,0,None
+51852,Iron Axe,Iron Axe,https://conanexilesmap.com/conanexilesdb/Icons/icon_iron_axe.png,None,FALSE,14,3,(Combat),"(4,10,51000)",-51852,TRUE,0,None
+51912,Throwing Axe,Throwing Axe,https://conanexilesmap.com/conanexilesdb/Icons/icon_throwing_axe.png,None,FALSE,27,3,(Combat),"(51951,10,51000)",-51912,TRUE,0,None
+51921,Javelin,Javelin,https://conanexilesmap.com/conanexilesdb/Icons/icon_Javelin-1.png,None,FALSE,12,2,(Combat),"(51951,10,51000)",-51911,TRUE,0,None
+51931,Stygian Spear,Stygian Spear,https://conanexilesmap.com/conanexilesdb/Icons/icon_stygian_bronze_spear.png,None,FALSE,29,6,(Combat),"(3,10,51000)",-51931,TRUE,0,None
+51932,Hardened Steel Throwing Axe,Hardened Steel Throwing Axe,https://conanexilesmap.com/conanexilesdb/Icons/icon_hardened_steel_throwing_axe.png,None,FALSE,51,6,(Combat),"(51951,10,51014)",-51932,TRUE,0,None
+51938,Star Metal Throwing Axe,Star Metal Throwing Axe,https://conanexilesmap.com/conanexilesdb/Icons/icon_star_metal_throwing_axe.png,None,FALSE,60,7,(Combat),-11118,-51938,TRUE,0,None
+51941,Ancient Two-Handed Sword,Ancient Two-Handed Sword,https://conanexilesmap.com/conanexilesdb/Icons/icon_ancient_2hSword.png,None,FALSE,42,9,(Combat),"(3,10,52000)",-51941,TRUE,0,None
+51942,Ancient Daggers,Ancient Daggers,https://conanexilesmap.com/conanexilesdb/Icons/icon_sewerbeast_dagger.png,None,FALSE,43,9,(Combat),"(51951,10,52000)",-51942,TRUE,0,None
+51951,Skirmisher,Skirmisher,https://conanexilesmap.com/conanexilesdb/Icons/icon_poniard_stone_t1.png,None,FALSE,6,2,(Combat),,-5.19515E+14,TRUE,40,None
+51952,Iron Poniard,Iron Poniard,https://conanexilesmap.com/conanexilesdb/Icons/icon_poniard_t2.png,None,FALSE,13,3,(Combat),"(51951,10,51000)",-51952,TRUE,0,None
+51953,Steel Poniard,Steel Poniard,https://conanexilesmap.com/conanexilesdb/Icons/icon_poignard.png,None,FALSE,32,7,(Combat),"(51951,10,52000)",-51953,TRUE,0,None
+51959,Hardened Steel Dagger,Hardened Steel Dagger,https://conanexilesmap.com/conanexilesdb/Icons/icon_hardened_steel_dagger.png,None,FALSE,54,11,(Combat),"(51951,10,51014)",-51959,TRUE,0,None
+51961,Thrall Taker,Thrall Taker,https://conanexilesmap.com/conanexilesdb/Icons/icon_wheel_of_pain.png,None,FALSE,10,3,(Survival),,-8.99115E+19,TRUE,60,None
+51967,Star Metal Dagger,Star Metal Dagger,https://conanexilesmap.com/conanexilesdb/Icons/icon_star_metal_dagger.png,None,FALSE,60,13,(Combat),-11118,-51967,TRUE,0,None
+51978,Acheronian Tools,Acheronian Tools,https://conanexilesmap.com/conanexilesdb/Icons/icon_acheron_pickaxe.png,None,FALSE,60,13,(Survival),-51014,-5197851970,TRUE,0,None
+51979,Acheronian Longsword,Acheronian Longsword,https://conanexilesmap.com/conanexilesdb/Icons/icon_acheron_sword.png,None,FALSE,60,13,(Combat),-11114,-51979,TRUE,0,None
+51982,Acheronian Spear,Acheronian Spear,https://conanexilesmap.com/conanexilesdb/Icons/icon_acheron_spear.png,None,FALSE,60,7,(Combat),-11118,-51982,TRUE,0,None
+51985,Acheronian War-axe,Acheronian War-axe,https://conanexilesmap.com/conanexilesdb/Icons/icon_acheron_axe.png,None,FALSE,60,13,(Combat),-11114,-51985,TRUE,0,None
+51988,Acheronian Shield,Acheronian Shield,https://conanexilesmap.com/conanexilesdb/Icons/icon_acheronian_shield.png,None,FALSE,60,13,(Combat),-11116,-51988,TRUE,0,None
+51991,Dragonbone Shield,Dragonbone Shield,https://conanexilesmap.com/conanexilesdb/Icons/icon_dragonbone_shield.png,None,FALSE,60,13,(Combat),-11116,-51991,FALSE,0,None
+52000,Steel Tools,Steel Tools,https://conanexilesmap.com/conanexilesdb/Icons/icon_steel_pickaxe.png,None,FALSE,30,7,(Survival),-51000,-5.10035E+19,TRUE,0,None
+52081,Sandstorm Mask,Sandstorm Mask,https://conanexilesmap.com/conanexilesdb/Icons/icon_sandstorm_mask.png,None,FALSE,30,4,(Armor),"-851,000",-52081,TRUE,0,None
+52202,Weaver,Weaver,https://conanexilesmap.com/conanexilesdb/Icons/icon_worker_shirt.png,None,TRUE,1,0,(Armor),,-5.22025E+19,TRUE,5,None
+52295,Mountaineer,Mountaineer,https://conanexilesmap.com/conanexilesdb/Icons/icon_climbing_boots.png,None,FALSE,0,0,(Armor),-8,-5229552293,FALSE,0,None
+52296,Expert Mountaineer,Expert Mountaineer,https://conanexilesmap.com/conanexilesdb/Icons/icon_climbing_boots.png,None,FALSE,60,0,(Armor),-52567,-5229752296,FALSE,0,None
+52421,Raider Armors,Raider Armors,https://conanexilesmap.com/conanexilesdb/Icons/icon_shemite_headdress.png,None,FALSE,30,7,(Armor),"-852,000",-5.22215E+74,TRUE,0,None
+52423,Khari Raider,Khari Raider,https://conanexilesmap.com/conanexilesdb/Icons/icon_khari_medium_F_helmet.png,None,FALSE,60,0,(Armor),-52567,-9.22059E+24,FALSE,0,None
+52424,Khari Soldier,Khari Soldier,https://conanexilesmap.com/conanexilesdb/Icons/icon_khari_heavy_helmet.png,None,FALSE,60,0,(Armor),-52567,-9.22109E+24,FALSE,0,None
+52425,Khari Daggers,Khari Daggers,https://conanexilesmap.com/conanexilesdb/Icons/icon_khari_dagger.png,None,FALSE,60,0,(Combat),-11118,-92215,FALSE,0,None
+52426,Khari War-Axe,Khari War-Axe,https://conanexilesmap.com/conanexilesdb/Icons/icon_khari_axe.png,None,FALSE,60,0,(Combat),-11114,-92216,FALSE,0,None
+52427,Khari Great-Sword,Khari Great-Sword,https://conanexilesmap.com/conanexilesdb/Icons/icon_2h_khari_sword.png,None,FALSE,60,0,(Combat),-11115,-92217,FALSE,0,None
+52428,Khari Hammer,Khari Hammer,https://conanexilesmap.com/conanexilesdb/Icons/icon_2h_khari_hammer.png,None,FALSE,60,0,(Combat),-11115,-92218,FALSE,0,None
+52429,Khari Pike,Khari Pike,https://conanexilesmap.com/conanexilesdb/Icons/icon_khari_spear.png,None,FALSE,60,0,(Combat),-11115,-92220,FALSE,0,None
+52430,Khari Bow,Khari Bow,https://conanexilesmap.com/conanexilesdb/Icons/icon_khari_bow.png,None,FALSE,60,0,(Combat),-11117,-92219,FALSE,0,None
+52451,Lemurian Warrior Armor,Lemurian Warrior Armor,https://conanexilesmap.com/conanexilesdb/Icons/epic_icon_lemurian_warrior_chest.png,None,FALSE,60,0,(Armor),-52567,-5.24525E+24,FALSE,0,None
+52466,Lemurian Royal Armor,Lemurian Royal Armor,https://conanexilesmap.com/conanexilesdb/Icons/epic_icon_lemurian_queen_chest.png,None,FALSE,60,0,(Armor),-52567,-5.24675E+24,FALSE,0,None
+52467,Aquilonian Guardsman Epic,Aquilonian Guardsman Epic,https://conanexilesmap.com/conanexilesdb/Icons/epic_icon_aquil_M_chest.png,None,FALSE,60,7,(Armor),"-5,256,752,631",-9.10619E+24,TRUE,0,None
+52468,Darfari Skin Epic,Darfari Skin Epic,https://conanexilesmap.com/conanexilesdb/Icons/epic_icon_darfari_chestpiece.png,None,FALSE,60,7,(Armor),"-5,256,752,950",-9.10169E+24,TRUE,0,None
+52469,Hyperborean Slaver Epic,Hyperborean Slaver Epic,https://conanexilesmap.com/conanexilesdb/Icons/epic_icon_barbarian_H_chest.png,None,FALSE,60,7,(Armor),"-5,256,752,950",-9.10719E+24,TRUE,0,None
+52470,Hyrkanian Raider Epic,Hyrkanian Raider Epic,https://conanexilesmap.com/conanexilesdb/Icons/epic_icon_hyrkanian_chest.png,None,FALSE,60,7,(Armor),"-5,256,752,421",-9.10769E+24,TRUE,0,None
+52471,Kambujan Shaman Epic,Kambujan Shaman Epic,https://conanexilesmap.com/conanexilesdb/Icons/epic_icon_druid_chest.png,None,FALSE,60,7,(Armor),"-5,256,752,950",-9.10469E+24,TRUE,0,None
+52472,Shemite Nomad Epic,Shemite Nomad Epic,https://conanexilesmap.com/conanexilesdb/Icons/epic_icon_shemite_shirt.png,None,FALSE,60,7,(Armor),"-5,256,752,421",-9.10219E+24,TRUE,0,None
+52473,Stygian Soldier Epic,Stygian Soldier Epic,https://conanexilesmap.com/conanexilesdb/Icons/epic_icon_stygian_H_top.png,None,FALSE,60,7,(Armor),"-5,256,752,631",-9.10869E+24,TRUE,0,None
+52474,Stygian Raider Epic,Stygian Raider Epic,https://conanexilesmap.com/conanexilesdb/Icons/epic_icon_stygian_M_chest.png,None,FALSE,60,7,(Armor),"-5,256,752,421",-9.10519E+24,TRUE,0,None
+52475,Vanir Warrior Epic,Vanir Warrior Epic,https://conanexilesmap.com/conanexilesdb/Icons/epic_icon_vanir_H_top.png,None,FALSE,60,7,(Armor),"-5,256,752,615",-9.10819E+24,TRUE,0,None
+52476,Vanir Settler Epic,Vanir Settler Epic,https://conanexilesmap.com/conanexilesdb/Icons/epic_icon_vanir_light_top.png,None,FALSE,60,7,(Armor),"-5,256,752,615",-9.10269E+24,TRUE,0,None
+52477,Vanir Fur Epic,Vanir Fur Epic,https://conanexilesmap.com/conanexilesdb/Icons/epic_icon_vanir_M_top.png,None,FALSE,60,7,(Armor),"-5,256,752,615",-9.10569E+24,TRUE,0,None
+52478,Zamorian Thief Epic,Zamorian Thief Epic,https://conanexilesmap.com/conanexilesdb/Icons/epic_icon_zamorian_chest.png,None,FALSE,60,7,(Armor),"-5,256,752,631",-9.10319E+24,TRUE,0,None
+52479,Zingaran Freebooter Epic,Zingaran Freebooter Epic,https://conanexilesmap.com/conanexilesdb/Icons/epic_icon_zingarianLight_chest.png,None,FALSE,60,7,(Armor),-52567,-9.10369E+24,TRUE,0,None
+52480,Cimmerian Clan Epic,Cimmerian Clan Epic,https://conanexilesmap.com/conanexilesdb/Icons/epic_icon_cimmerian_M_top.png,None,FALSE,60,7,(Armor),-52567,-5.25675E+24,TRUE,0,None
+52481,Cimmerian Warrior Epic,Cimmerian Warrior Epic,https://conanexilesmap.com/conanexilesdb/Icons/epic_icon_cimmerian_H_top.png,None,FALSE,60,7,(Armor),-52567,-5.25625E+24,TRUE,0,None
+52482,Relic Hunter Epic,Relic Hunter Epic,https://conanexilesmap.com/conanexilesdb/Icons/epic_icon_relic_hunter_shirt.png,None,FALSE,60,7,(Armor),"-5,256,752,483",-9.10419E+24,FALSE,0,None
+52483,Relic Hunter Armor,Relic Hunter Armor,https://conanexilesmap.com/conanexilesdb/Icons/icon_relic_hunter_shirt.png,None,FALSE,20,5,(Armor),-8,-5.25425E+24,FALSE,0,None
+52484,Reptile Leather Epic,Reptile Leather Epic,https://conanexilesmap.com/conanexilesdb/Icons/epic_icon_crocodile_armor_chestpiece.png,None,FALSE,60,7,(Armor),"-5,256,795,001",-9.12829E+24,FALSE,0,None
+52486,Hyena-Fur Armor,Hyena-Fur Armor,https://conanexilesmap.com/conanexilesdb/Icons/icon_dogs_top.png,None,FALSE,30,0,(Armor),-8,-5.25525E+24,FALSE,0,None
+52487,Hyena-Fur Epic,Hyena-Fur Epic,https://conanexilesmap.com/conanexilesdb/Icons/epic_icon_dogs_top.png,None,FALSE,60,7,(Armor),"-5,256,752,486",-9.12969E+24,FALSE,0,None
+52498,Buccaneer,Buccaneer,https://conanexilesmap.com/conanexilesdb/Icons/icon_black_hand_peglegL.png,None,FALSE,60,0,(Armor),-8,-5.24985E+24,FALSE,0,None
+52567,Exile Epics,Exile Epics,https://conanexilesmap.com/conanexilesdb/Icons/epic_icon_light_exile_armor.png,None,FALSE,60,13,(Armor),"-851,015",-9.1002E+169,TRUE,15,None
+52604,Pride of the Silent Legion,Pride of the Silent Legion,https://conanexilesmap.com/conanexilesdb/Icons/epic_icon_deathknight_top.png,None,FALSE,60,0,(Armor),"-5,256,751,015",-5.26045E+24,FALSE,0,None
+52615,Nordheimer Armors,Nordheimer Armors,https://conanexilesmap.com/conanexilesdb/Icons/icon_vanir_light_top.png,None,FALSE,40,9,(Armor),"-852,000",-5.29765E+74,TRUE,0,None
+52631,Great Civilizations Armors,Great Civilizations Armors,https://conanexilesmap.com/conanexilesdb/Icons/icon_zamorian_headwraps.png,None,FALSE,50,11,(Armor),"-851,014",-5.29355E+74,TRUE,0,None
+52950,Savage Armors,Savage Armors,https://conanexilesmap.com/conanexilesdb/Icons/icon_darfari_mask_01.png,None,FALSE,20,5,(Armor),"-851,000",-5.20715E+74,TRUE,0,None
+52951,Corrupted Mask,Corrupted Mask,https://conanexilesmap.com/conanexilesdb/Icons/epic_icon_CorruptedMask.png,None,FALSE,20,0,(Armor),"-851,000",-52509,FALSE,0,None
+53203,Scorpion Queen Venom,Scorpion Queen Venom,https://conanexilesmap.com/conanexilesdb/Icons/icon_scorpionqueen_poison.png,None,FALSE,60,0,(Survival),-89103,-11505,FALSE,0,None
+53520,Decorative Warpaints,Decorative Warpaints,https://conanexilesmap.com/conanexilesdb/Icons/icon_paintbrush.png,None,FALSE,22,2,(Armor),"-510,008,031,189,103",-5.35495E+44,TRUE,50,None
+53527,Functional Warpaints,Functional Warpaints,https://conanexilesmap.com/conanexilesdb/Icons/Icon_Warpaint_strength.png,None,FALSE,42,3,(Armor),-53520,-5.35275E+34,TRUE,0,None
+53613,Razor Arrows,Razor Arrows,https://conanexilesmap.com/conanexilesdb/Icons/icon_razor_arrow.png,None,FALSE,40,5,(Combat),"(6,11,52000)",-53613,TRUE,0,None
+53614,Steel Arrows,Steel Arrows,https://conanexilesmap.com/conanexilesdb/Icons/icon_razor_arrow.png,None,FALSE,30,4,(Combat),"(6,11,51000)",-53614,TRUE,0,None
+53615,Specialist Ammunition I,Specialist Ammunition I,https://conanexilesmap.com/conanexilesdb/Icons/icon_arrow_light.png,None,FALSE,29,3,(Combat),"-651,000",-5361851471,TRUE,0,None
+53616,Specialist Ammunition II,Specialist Ammunition II,https://conanexilesmap.com/conanexilesdb/Icons/icon_arrow_aloe.png,None,FALSE,38,4,(Combat),"-65,361,552,000",-5361553619,TRUE,0,None
+53617,Specialist Ammunition III,Specialist Ammunition III,https://conanexilesmap.com/conanexilesdb/Icons/icon_arrow_explosive.png,None,FALSE,49,5,(Combat),"-65,361,652,000",-5361753620,TRUE,0,None
+53618,Ironhead Arrow,Ironhead Arrow,https://conanexilesmap.com/conanexilesdb/Icons/icon_ironhead_arrow.png,None,FALSE,20,3,(Combat),"(6,11,51000)",-53612,TRUE,0,None
+53619,Specialist Ammunition IV,Specialist Ammunition IV,https://conanexilesmap.com/conanexilesdb/Icons/icon_arrow_light.png,None,FALSE,49,5,(Combat),"-65,361,652,000",-5.36215E+14,FALSE,0,None
+53654,Hardened Steel Arrow,Hardened Steel Arrow,https://conanexilesmap.com/conanexilesdb/Icons/icon_hardened_steel_arrow.png,None,FALSE,50,6,(Combat),"(6,11,51014)",-53654,TRUE,0,None
+53656,Star Metal Arrow,Star Metal Arrow,https://conanexilesmap.com/conanexilesdb/Icons/icon_star_metal_arrow.png,None,FALSE,60,7,(Combat),-11117,-53656,TRUE,0,None
+53724,Black Ice Throwing Axe,Black Ice Throwing Axe,https://conanexilesmap.com/conanexilesdb/Icons/icon_black_ice_throwing_axe.png,None,FALSE,60,0,(Combat),-11118,-51943,FALSE,0,None
+53725,Obsidian Throwing Axe,Obsidian Throwing Axe,https://conanexilesmap.com/conanexilesdb/Icons/icon_obsidian_throwing_axe.png,None,FALSE,60,7,(Combat),-11118,-51944,FALSE,0,None
+53726,Serpent-Man Throwing Axe,Serpent-Man Throwing Axe,https://conanexilesmap.com/conanexilesdb/Icons/icon_serpentmen_throwing_axe.png,None,FALSE,60,0,(Combat),-11118,-51945,FALSE,0,None
+54001,Dragonbone Spear,Dragonbone Spear,https://conanexilesmap.com/conanexilesdb/Icons/icon_dragonbone_spear.png,None,FALSE,60,0,(Combat),-11115,-54001,FALSE,0,None
+54002,Dragonbone Maul,Dragonbone Maul,https://conanexilesmap.com/conanexilesdb/Icons/icon_dragonbone_2h_hammer.png,None,FALSE,60,0,(Combat),-11115,-54002,FALSE,0,None
+54003,Dragonhorn Bow,Dragonhorn Bow,https://conanexilesmap.com/conanexilesdb/Icons/icon_dragonhorn_bow.png,None,FALSE,60,0,(Combat),-11117,-5400354004,FALSE,0,None
+54005,Dragonbone Sword,Dragonbone Sword,https://conanexilesmap.com/conanexilesdb/Icons/icon_dragonbone_sword.png,None,FALSE,60,0,(Combat),-11114,-54005,FALSE,0,None
+54006,Dragonbone War Axe,Dragonbone War Axe,https://conanexilesmap.com/conanexilesdb/Icons/icon_dragonbone_waraxe.png,None,FALSE,60,0,(Combat),-11114,-54000,FALSE,0,None
+54007,Dragonbone Two-Handed Sword,Dragonbone Two-Handed Sword,https://conanexilesmap.com/conanexilesdb/Icons/icon_dragonhorn_2hSword.png,None,FALSE,60,0,(Combat),-11115,-53999,FALSE,0,None
+54008,Dragonbone Daggers,Dragonbone Daggers,https://conanexilesmap.com/conanexilesdb/Icons/icon_dragonhorn_dagger.png,None,FALSE,60,0,(Combat),-11118,-53998,FALSE,0,None
+54009,Dragonbone Throwing Axe,Dragonbone Throwing Axe,https://conanexilesmap.com/conanexilesdb/Icons/icon_dragonhorn_throwing_axe.png,None,FALSE,60,0,(Combat),-11118,-53735,FALSE,0,None
+54010,Dragonbone Javelin,Dragonbone Javelin,https://conanexilesmap.com/conanexilesdb/Icons/icon_dragonhorn_javelin.png,None,FALSE,60,0,(Combat),-11118,-53736,FALSE,0,None
+55001,Acolyte of Set,Acolyte of Set,https://conanexilesmap.com/conanexilesdb/Icons/icon_t1_alter_of_set.png,None,FALSE,1,50,(Religion),,-8.09515E+19,TRUE,20,None
+55002,Acolyte of Yog,Acolyte of Yog,https://conanexilesmap.com/conanexilesdb/Icons/icon_t1_alter_of_yog.png,None,FALSE,1,50,(Religion),,-8.09615E+14,TRUE,30,None
+55003,Acolyte of Mitra,Acolyte of Mitra,https://conanexilesmap.com/conanexilesdb/Icons/icon_t1_altar_of_mitra.png,None,FALSE,1,50,(Religion),,-8.09715E+19,TRUE,10,None
+55004,Blessings of Mitra,Blessings of Mitra,https://conanexilesmap.com/conanexilesdb/Icons/icon_mitra_ankh_staff.png,None,FALSE,60,7,(Religion),-55023,-5145751465,TRUE,0,None
+55005,Blessings of Yog,Blessings of Yog,https://conanexilesmap.com/conanexilesdb/Icons/icon_darfari_bone_club.png,None,FALSE,60,7,(Religion),-55022,-5145851466,TRUE,0,None
+55006,Blessings of Set,Blessings of Set,https://conanexilesmap.com/conanexilesdb/Icons/icon_sacrificial_knife.png,None,FALSE,60,7,(Religion),-55021,-5145951467,TRUE,0,None
+55007,Blessings of Ymir,Blessings of Ymir,https://conanexilesmap.com/conanexilesdb/Icons/icon_black_ice_1h_axe.png,None,FALSE,60,7,(Religion),-80978,-5146051463,TRUE,0,None
+55008,Blessings of Derketo,Blessings of Derketo,https://conanexilesmap.com/conanexilesdb/Icons/icon_skinning_dagger_derketo.png,None,FALSE,60,7,(Religion),-80947,-5146251464,TRUE,0,None
+55011,Priest of Set,Priest of Set,https://conanexilesmap.com/conanexilesdb/Icons/icon_t2_alter_of_set.png,None,FALSE,20,5,(Religion),-55001,-8.09525E+29,TRUE,0,None
+55012,Priest of Yog,Priest of Yog,https://conanexilesmap.com/conanexilesdb/Icons/icon_t2_alter_of_yog.png,None,FALSE,20,5,(Religion),-55002,-8.09625E+14,TRUE,0,None
+55013,Priest of Mitra,Priest of Mitra,https://conanexilesmap.com/conanexilesdb/Icons/icon_t2_altar_of_mitra.png,None,FALSE,20,5,(Religion),-55003,-8.09725E+19,TRUE,0,None
+55021,High Priest of Set,High Priest of Set,https://conanexilesmap.com/conanexilesdb/Icons/icon_t3_alter_of_set.png,None,FALSE,50,11,(Religion),-55011,-8.09535E+24,TRUE,0,None
+55022,High Priest of Yog,High Priest of Yog,https://conanexilesmap.com/conanexilesdb/Icons/icon_t3_alter_of_yog.png,None,FALSE,50,11,(Religion),-55012,-8.09635E+19,TRUE,0,None
+55023,High Priest of Mitra,High Priest of Mitra,https://conanexilesmap.com/conanexilesdb/Icons/icon_t3_altar_of_mitra.png,None,FALSE,50,11,(Religion),-55013,-8.09735E+19,TRUE,0,None
+80101,Bedshaper,Bedshaper,https://conanexilesmap.com/conanexilesdb/Icons/icon_wooden_bed.png,None,FALSE,4,1,(Survival),-1,-8.01018E+44,TRUE,0,None
+80131,Water Well,Water Well,https://conanexilesmap.com/conanexilesdb/Icons/icon_large_water_well.png,None,FALSE,25,3,(Survival),-51000,-80131,TRUE,70,None
+80132,Large Water Well,Large Water Well,https://conanexilesmap.com/conanexilesdb/Icons/icon_t2_water_well.png,None,FALSE,49,10,(Survival),-80131,-80132,TRUE,0,None
+80152,Archery Target,Archery Target,https://conanexilesmap.com/conanexilesdb/Icons/icon_archery_target.png,None,FALSE,35,2,(Decoration),-80200,-80152,TRUE,0,None
+80172,Skulltaker,Skulltaker,https://conanexilesmap.com/conanexilesdb/Icons/icon_skull_stick1.png,None,FALSE,10,0,(Decoration),-80200,-8.88879E+19,FALSE,0,None
+80200,Furniture Maker,Furniture Maker,https://conanexilesmap.com/conanexilesdb/Icons/icon_Artisan_workstation.png,None,FALSE,10,1,(Decoration),,-1.85128E+24,TRUE,35,None
+80201,Tablemaker,Tablemaker,https://conanexilesmap.com/conanexilesdb/Icons/icon_round_table.png,None,FALSE,11,1,(Decoration),-80200,-8.02028E+39,TRUE,0,None
+80202,Battle Standard,Battle Standard,https://conanexilesmap.com/conanexilesdb/Icons/icon_PvpBanner.png,None,FALSE,21,5,(Decoration),-80200,-80303,TRUE,0,None
+80204,Torchbearer,Torchbearer,https://conanexilesmap.com/conanexilesdb/Icons/icon_wall_torch-1.png,None,FALSE,7,1,(Decoration),-41033,-8.05118E+14,TRUE,10,None
+80210,Palisade,Palisade,https://conanexilesmap.com/conanexilesdb/Icons/icon_siege_palisade_2.png,None,FALSE,17,2,(Construction),-2,-8.02118E+14,TRUE,0,None
+80213,Cages,Cages,https://conanexilesmap.com/conanexilesdb/Icons/icon_cage_small.png,None,FALSE,40,1,(Decoration),-80200,-8.02138E+14,TRUE,0,None
+80218,Ancient Braziers,Ancient Braziers,https://conanexilesmap.com/conanexilesdb/Icons/icon_acheronian_brazier.png,None,FALSE,50,6,(Decoration),-80200,-8021880219,TRUE,0,None
+80261,Chairmaker,Chairmaker,https://conanexilesmap.com/conanexilesdb/Icons/icon_chair_2.png,None,FALSE,17,1,(Decoration),-80200,-8.02618E+29,TRUE,0,None
+80271,Benchmaker,Benchmaker,https://conanexilesmap.com/conanexilesdb/Icons/icon_log_bench.png,None,FALSE,18,1,(Decoration),-80200,-8027180272,TRUE,0,None
+80281,The Royal,The Royal,https://conanexilesmap.com/conanexilesdb/Icons/icon_throne.png,None,FALSE,50,11,(Decoration),-80200,-80281,TRUE,0,None
+80311,Papyrus Scroll,Papyrus Scroll,https://conanexilesmap.com/conanexilesdb/Icons/icon_papyrus_scroll.png,None,FALSE,12,1,(Decoration),-80200,-8.03118E+24,TRUE,0,None
+80317,Gardener,Gardener,https://conanexilesmap.com/conanexilesdb/Icons/icon_PlantPot06.png,None,FALSE,18,1,(Decoration),-80200,-8.03238E+79,TRUE,0,None
+80501,Braziers,Braziers,https://conanexilesmap.com/conanexilesdb/Icons/icon_stygian_brazier.png,None,FALSE,11,1,(Decoration),-80204,-8.05038E+39,TRUE,0,None
+80515,Wall Lantern,Wall Lantern,https://conanexilesmap.com/conanexilesdb/Icons/icon_wall_lantern.png,None,FALSE,41,3,(Decoration),-80204,-80515,TRUE,0,None
+80521,Chandler,Chandler,https://conanexilesmap.com/conanexilesdb/Icons/icon_White_candle-1.png,None,FALSE,11,1,(Decoration),-80204,-8.05218E+24,TRUE,0,None
+80531,Science of the Ancients,Science of the Ancients,https://conanexilesmap.com/conanexilesdb/Icons/icon_gem_wall_torch.png,None,FALSE,52,11,(Decoration),-80532,-8.05358E+14,TRUE,0,None
+80532,Alchemical Powder,Alchemical Powder,https://conanexilesmap.com/conanexilesdb/Icons/icon_witchfire_wall_torch.png,None,FALSE,46,10,(Decoration),-80204,-8.05388E+14,TRUE,0,None
+80533,Witch Doctor,Witch Doctor,https://conanexilesmap.com/conanexilesdb/Icons/icon_bonecorrupt.png,None,FALSE,30,0,(Survival),-89103,-1.00102E+29,FALSE,0,None
+80571,Awnings,Awnings,https://conanexilesmap.com/conanexilesdb/Icons/icon_awning_orange.png,None,FALSE,41,3,(Construction),"(90201,11)",-8.05719E+69,TRUE,0,None
+80621,Rug Stitcher,Rug Stitcher,https://conanexilesmap.com/conanexilesdb/Icons/icon_hide_rug.png,None,FALSE,15,1,(Decoration),-80200,-8.06218E+29,TRUE,0,None
+80651,Apprentice Potter,Apprentice Potter,https://conanexilesmap.com/conanexilesdb/Icons/icon_pottery-1.png,None,FALSE,15,1,(Decoration),-80200,-8.06518E+64,TRUE,0,None
+80661,Ironmonger,Ironmonger,https://conanexilesmap.com/conanexilesdb/Icons/icon_metal_pot_1.png,None,FALSE,40,3,(Decoration),-80200,-8.0662E+104,TRUE,0,None
+80695,Wooden Shelf,Wooden Shelf,https://conanexilesmap.com/conanexilesdb/Icons/icon_shelf.png,None,FALSE,33,2,(Decoration),-80200,-80695,TRUE,0,None
+80721,Banners,Banners,https://conanexilesmap.com/conanexilesdb/Icons/icon_flag_hanging1_stygia.png,None,FALSE,16,1,(Decoration),-80200,-8.07218E+29,TRUE,0,None
+80736,Darfari Banners,Darfari Banners,https://conanexilesmap.com/conanexilesdb/Icons/icon_Flag_Standing_Darfari1.png,None,FALSE,0,0,(Decoration),-80200,-8.07348E+19,FALSE,0,None
+80737,Dogs of the Desert Banners,Dogs of the Desert Banners,https://conanexilesmap.com/conanexilesdb/Icons/icon_Flag_Standing_Dogs.png,None,FALSE,0,0,(Decoration),-80200,-80737,FALSE,0,None
+80738,Black Hand Banners,Black Hand Banners,https://conanexilesmap.com/conanexilesdb/Icons/icon_Flag_Standing_BlackHand.png,None,FALSE,0,0,(Decoration),-80200,-80738,FALSE,0,None
+80739,Relic Hunter Banners,Relic Hunter Banners,https://conanexilesmap.com/conanexilesdb/Icons/icon_Flag_Standing_Relichunters.png,None,FALSE,0,0,(Decoration),-80200,-80739,FALSE,0,None
+80742,Fireplace,Fireplace,https://conanexilesmap.com/conanexilesdb/Icons/icon_fireplace_heart.png,None,FALSE,39,4,(Decoration),-80204,-80742,TRUE,0,None
+80751,Gong,Gong,https://conanexilesmap.com/conanexilesdb/Icons/icon_gong.png,None,FALSE,48,3,(Decoration),-80200,-80751,TRUE,0,None
+80752,Horn,Horn,https://conanexilesmap.com/conanexilesdb/Icons/icon_horn.png,None,FALSE,15,1,(Decoration),-80200,-8075280762,TRUE,0,None
+80753,Darfari Wind Chimes,Darfari Wind Chimes,https://conanexilesmap.com/conanexilesdb/Icons/icon_Wind_Chime.png,None,FALSE,31,2,(Decoration),-80200,-8075380755,TRUE,0,None
+80754,Drums,Drums,https://conanexilesmap.com/conanexilesdb/Icons/icon_darfari_drums.png,None,FALSE,22,2,(Decoration),-80200,-8075480749,TRUE,0,None
+80766,Black Hand Tents,Black Hand Tents,https://conanexilesmap.com/conanexilesdb/Icons/icon_black_hand_tent_1.png,None,FALSE,0,0,(Decoration),-80200,-8.07668E+19,FALSE,0,None
+80770,Tents,Tents,https://conanexilesmap.com/conanexilesdb/Icons/icon_survivalist_tent.png,None,FALSE,23,1,(Decoration),-80200,-8.07658E+14,TRUE,0,None
+80851,Boxmaker,Boxmaker,https://conanexilesmap.com/conanexilesdb/Icons/icon_wooden_box.png,None,FALSE,2,1,(Survival),,-80851,TRUE,15,None
+80852,Large Chest,Large Chest,https://conanexilesmap.com/conanexilesdb/Icons/icon_chest.png,None,FALSE,20,3,(Survival),-80851,-8085280743,TRUE,0,None
+80853,Vault,Vault,https://conanexilesmap.com/conanexilesdb/Icons/icon_vault.png,None,FALSE,44,9,(Survival),-80852,-8.08538E+19,TRUE,0,None
+80901,Explosives,Explosives,https://conanexilesmap.com/conanexilesdb/Icons/icon_explosive_jar-1.png,None,FALSE,35,8,(Combat),"-891,038,065,151,000",-8.09019E+19,TRUE,60,None
+80945,Pleasure Place of Derketo,Pleasure Place of Derketo,https://conanexilesmap.com/conanexilesdb/Icons/icon_Altar_durketo_tier1.png,None,FALSE,1,50,(Religion),,-8.09455E+29,TRUE,50,None
+80946,Pleasure Dome of Derketo,Pleasure Dome of Derketo,https://conanexilesmap.com/conanexilesdb/Icons/icon_Altar_durketo_tier2.png,None,FALSE,20,5,(Religion),-80945,-8.09465E+44,TRUE,0,None
+80947,Pleasure Palace of Derketo,Pleasure Palace of Derketo,https://conanexilesmap.com/conanexilesdb/Icons/icon_Altar_durketo_tier3.png,None,FALSE,50,11,(Religion),-80946,-8094718303,TRUE,0,None
+80948,Bower of JhebbalSag,Bower of JhebbalSag,https://conanexilesmap.com/conanexilesdb/Icons/icon_altar_jhebbal_sag_tier1.png,None,FALSE,1,0,(Religion),,-8.09485E+34,FALSE,60,None
+80949,Retreat of JhebbalSag,Retreat of JhebbalSag,https://conanexilesmap.com/conanexilesdb/Icons/icon_altar_jhebbal_sag_tier2.png,None,FALSE,20,5,(Religion),-80948,-8.09495E+34,TRUE,0,None
+80950,Grove of JhebbalSag,Grove of JhebbalSag,https://conanexilesmap.com/conanexilesdb/Icons/icon_altar_jhebbal_sag_tier3.png,None,FALSE,50,11,(Religion),-80949,-8.09502E+29,TRUE,0,None
+80951,Midnight Alchemist,Midnight Alchemist,https://conanexilesmap.com/conanexilesdb/Icons/icon_potion_of_midnight.png,None,FALSE,30,0,(Survival),-89103,-1.95012E+14,FALSE,7,None
+80953,Blessings of Jhebbal Sag,Blessings of Jhebbal Sag,https://conanexilesmap.com/conanexilesdb/Icons/icon_skinning_dagger_JhebbalSag.png,None,FALSE,60,7,(Religion),-80950,-5146151468,TRUE,0,None
+80974,Altar to Ymir,Altar to Ymir,https://conanexilesmap.com/conanexilesdb/Icons/icon_t1_altar_of_ymir.png,None,FALSE,1,50,(Religion),,-8.09745E+19,TRUE,40,None
+80977,Blooded Altar to Ymir,Blooded Altar to Ymir,https://conanexilesmap.com/conanexilesdb/Icons/icon_t2_altar_of_ymir.png,None,FALSE,20,5,(Religion),-80974,-8.09775E+29,TRUE,0,None
+80978,Exalted Altar to Ymir,Exalted Altar to Ymir,https://conanexilesmap.com/conanexilesdb/Icons/icon_t3_altar_of_ymir.png,None,FALSE,50,11,(Religion),-80977,-8.09785E+24,TRUE,0,None
+81001,Hunter,Hunter,https://conanexilesmap.com/conanexilesdb/Icons/icon_trophy_gazelle.png,None,FALSE,14,2,(Decoration),-81004,-8.10058E+24,TRUE,0,None
+81002,Big Game Hunter,Big Game Hunter,https://conanexilesmap.com/conanexilesdb/Icons/icon_trophy_white.png,None,FALSE,21,3,(Decoration),-81004,-8.10018E+29,TRUE,0,None
+81003,Exotic Game Hunter,Exotic Game Hunter,https://conanexilesmap.com/conanexilesdb/Icons/icon_trophy_rocknose.png,None,FALSE,47,5,(Decoration),-81004,-8.10088E+34,TRUE,0,None
+81004,Apprentice Taxidermist,Apprentice Taxidermist,https://conanexilesmap.com/conanexilesdb/Icons/icon_trophy_hyena.png,None,FALSE,11,2,(Decoration),-80200,-8.10138E+14,TRUE,37,None
+81019,Vanquisher of the King Beneath,Vanquisher of the King Beneath,https://conanexilesmap.com/conanexilesdb/Icons/icon_giant_king_polearm.png,None,FALSE,60,0,(Combat),,-8101981020,FALSE,105,None
+81020,Highlands Taxidermist,Highlands Taxidermist,https://conanexilesmap.com/conanexilesdb/Icons/icon_trophy_wolf.png,None,FALSE,31,2,(Decoration),-81004,-8.20118E+19,TRUE,0,None
+81021,Highlands Hunter,Highlands Hunter,https://conanexilesmap.com/conanexilesdb/Icons/icon_trophy_elk.png,None,FALSE,41,3,(Decoration),-81004,-8.20158E+19,TRUE,0,None
+81022,Highlands Big Game Hunter,Highlands Big Game Hunter,https://conanexilesmap.com/conanexilesdb/Icons/icon_trophy_wolf_white.png,None,FALSE,51,3,(Decoration),-81004,-8201382019,TRUE,0,None
+81023,Mammoth Hunter,Mammoth Hunter,https://conanexilesmap.com/conanexilesdb/Icons/icon_trophy_mammoth.png,None,FALSE,54,3,(Decoration),-81004,-82023,TRUE,0,None
+82053,Jungle Hunter,Jungle Hunter,https://conanexilesmap.com/conanexilesdb/Icons/icon_trophy_junglebird_green.png,None,FALSE,21,3,(Decoration),-81004,-8.20538E+39,TRUE,0,None
+82062,Faux Taxidermist,Faux Taxidermist,https://conanexilesmap.com/conanexilesdb/Icons/icon_Stuffed_Gorilla.png,None,FALSE,60,0,(Survival),-15000,-8.2122E+149,FALSE,0,None
+88899,Folding Screen,Folding Screen,https://conanexilesmap.com/conanexilesdb/Icons/icon_stygian_folding_screens_01.png,None,FALSE,34,2,(Decoration),-80200,-88899,TRUE,0,None
+88902,Display Racks,Display Racks,https://conanexilesmap.com/conanexilesdb/Icons/icon_displayrack_horizontal.png,None,FALSE,14,2,(Decoration),-80200,-8.89029E+14,TRUE,0,None
+89001,Primitive Cook,Primitive Cook,https://conanexilesmap.com/conanexilesdb/Icons/icon_campfire_1.png,None,FALSE,3,1,(Survival),,-89001,TRUE,10,None
+89002,Improved Campfire,Improved Campfire,https://conanexilesmap.com/conanexilesdb/Icons/icon_fireplace_large.png,None,FALSE,7,2,(Survival),-89001,-89011,TRUE,0,None
+89010,Bonfire,Bonfire,https://conanexilesmap.com/conanexilesdb/Icons/icon_bonfire.png,None,FALSE,16,2,(Survival),-89002,-89010,TRUE,0,None
+89102,Master Blacksmith,Master Blacksmith,https://conanexilesmap.com/conanexilesdb/Icons/icon_improved_furnace.png,None,FALSE,54,11,(Survival),"-1,051,014",-8910289302,TRUE,0,None
+89103,Firebowl Cauldron,Firebowl Cauldron,https://conanexilesmap.com/conanexilesdb/Icons/icon_mixer.png,None,FALSE,15,3,(Survival),-51000,-8.91035E+49,TRUE,0,None
+89104,Dyemaker,Dyemaker,https://conanexilesmap.com/conanexilesdb/Icons/icon_dark_dye_pigment.png,None,FALSE,15,2,(Survival),-89103,"(17001,17002,17010,17011,17012,17020,17021,17022,17030,17031,17032,17040,17041,17042,17050,17051,17052,17060,17061,17062,17070,17071,17072,17080,17081,17082,17090,17091,17092,17093,17094,17095,17096,17097,17098,17099,17100,17101,17102,17103,17104,17105,17106,17107,17108,17109,17110,17111,17112,17113,17114)",TRUE,0,None
+89105,Master Tanner,Master Tanner,https://conanexilesmap.com/conanexilesdb/Icons/icon_epic_tannery.png,None,FALSE,56,12,(Survival),"(51015,9)",-89105,TRUE,0,None
+89106,Potionmaker,Potionmaker,https://conanexilesmap.com/conanexilesdb/Icons/icon_improved_firebowl_cauldron.png,None,FALSE,58,12,(Survival),"-8,910,351,015",-8.91062E+74,TRUE,0,None
+89801,Engineer,Engineer,https://conanexilesmap.com/conanexilesdb/Icons/icon_trebuchet.png,None,FALSE,25,3,(Construction),"(2,11)",-8.98019E+24,TRUE,0,None
+89912,Wheel of Pain,Wheel of Pain,https://conanexilesmap.com/conanexilesdb/Icons/icon_wheel_of_pain_xl.png,None,FALSE,30,7,(Survival),-51961,-8.99125E+19,TRUE,0,None
+89913,Greater Wheel of Pain,Greater Wheel of Pain,https://conanexilesmap.com/conanexilesdb/Icons/icon_wheel_of_pain_xxl.png,None,FALSE,50,11,(Survival),-89912,-8.99135E+14,TRUE,0,None
+90000,Cartographer,Cartographer,https://conanexilesmap.com/conanexilesdb/Icons/icon_map_room.png,None,FALSE,62,0,(Decoration),,-9000011500,FALSE,95,None
+90005,Apprentice Stair-maker,Apprentice Stair-maker,https://conanexilesmap.com/conanexilesdb/Icons/icon_stairs-1.png,None,FALSE,6,1,(Construction),-2,-9.00059E+19,TRUE,0,None
+90006,Apprentice Roofer,Apprentice Roofer,https://conanexilesmap.com/conanexilesdb/Icons/icon_tier1_roof_sloped_top_end.png,None,FALSE,8,1,(Construction),-2,-9.00299E+34,TRUE,0,None
+90010,Apprentice Fence-maker,Apprentice Fence-maker,https://conanexilesmap.com/conanexilesdb/Icons/icon_t1_fence.png,None,FALSE,9,1,(Construction),-2,-9.00109E+14,TRUE,0,None
+90101,Journeyman Mason,Journeyman Mason,https://conanexilesmap.com/conanexilesdb/Icons/icon_t2_foundation.png,None,FALSE,20,5,(Construction),"-251,000",-9.0102E+184,TRUE,11,None
+90105,Journeyman Stair-maker,Journeyman Stair-maker,https://conanexilesmap.com/conanexilesdb/Icons/icon_t2_stairs.png,None,FALSE,23,2,(Construction),"-9,010,190,005",-9.01059E+49,TRUE,0,None
+90106,Journeyman Roofer,Journeyman Roofer,https://conanexilesmap.com/conanexilesdb/Icons/icon_tier2_roof_sloped_top_end.png,None,FALSE,25,2,(Construction),"-9,010,190,006",-9.00309E+69,TRUE,0,None
+90110,Journeyman Fence-maker,Journeyman Fence-maker,https://conanexilesmap.com/conanexilesdb/Icons/icon_t2_fence.png,None,FALSE,26,2,(Construction),"-9,010,190,010",-9.01109E+19,TRUE,0,None
+90121,Gatekeeper,Gatekeeper,https://conanexilesmap.com/conanexilesdb/Icons/icon_t2_gate_frame.png,None,FALSE,27,3,(Construction),-90101,-9.01219E+19,TRUE,0,None
+90201,Master Mason,Master Mason,https://conanexilesmap.com/conanexilesdb/Icons/icon_t3_foundation.png,None,FALSE,30,7,(Construction),"-9,010,152,000",-9.0202E+199,TRUE,12,None
+90208,Master Stair-maker,Master Stair-maker,https://conanexilesmap.com/conanexilesdb/Icons/icon_t3_stairs.png,None,FALSE,33,2,(Construction),"-9,020,190,105",-9.02059E+49,TRUE,0,None
+90209,Master Roofer,Master Roofer,https://conanexilesmap.com/conanexilesdb/Icons/icon_tier3_roof_sloped_top_end.png,None,FALSE,35,2,(Construction),"-9,020,190,106",-9.00319E+69,TRUE,0,None
+90210,Master Fence-maker,Master Fence-maker,https://conanexilesmap.com/conanexilesdb/Icons/icon_t3_fence.png,None,FALSE,36,2,(Construction),"-9,020,190,110",-9.02109E+19,TRUE,0,None
+90225,Elevators,Elevators,https://conanexilesmap.com/conanexilesdb/Icons/icon_elevator_vertical.png,None,FALSE,19,2,(Construction),"(2,11)",-9022590226,TRUE,0,None
+90227,Master Gatekeeper,Master Gatekeeper,https://conanexilesmap.com/conanexilesdb/Icons/icon_t3_gate_frame.png,None,FALSE,39,4,(Construction),"-9,020,190,121",-9.02219E+24,TRUE,0,None
+90228,Siege Cauldron,Siege Cauldron,https://conanexilesmap.com/conanexilesdb/Icons/icon_siege_defence_cauldron.png,None,FALSE,35,4,(Construction),-90201,-9.02279E+14,TRUE,0,None
+90284,Apprentice Hatchmaker,Apprentice Hatchmaker,https://conanexilesmap.com/conanexilesdb/Icons/icon_t1_trapdoor_frame.png,None,FALSE,19,2,(Construction),-2,-9.02849E+14,TRUE,0,None
+90285,Journeyman Hatchmaker,Journeyman Hatchmaker,https://conanexilesmap.com/conanexilesdb/Icons/icon_t2_trappdoor_frame.png,None,FALSE,29,3,(Construction),"-9,010,190,284",-9.02859E+19,TRUE,0,None
+90286,Master Hatchmaker,Master Hatchmaker,https://conanexilesmap.com/conanexilesdb/Icons/icon_t3_trapdoor_frame.png,None,FALSE,39,4,(Construction),"-9,020,190,285",-9.02869E+24,TRUE,0,None
+90304,Struts,Struts,https://conanexilesmap.com/conanexilesdb/Icons/icon_wall_support_strut.png,None,FALSE,13,2,(Construction),-2,-9030490305,TRUE,0,None
+90323,Pontoons,Pontoons,https://conanexilesmap.com/conanexilesdb/Icons/icon_wooden_pontoon_foundation_T2.png,None,FALSE,20,2,(Construction),-90101,-9.03239E+14,FALSE,0,None
+90325,Reinforced Pontoons,Reinforced Pontoons,https://conanexilesmap.com/conanexilesdb/Icons/icon_wooden_pontoon_foundation_T3.png,None,FALSE,30,2,(Construction),"-9,020,190,323",-9032590326,FALSE,0,None
+91329,Pride of Aesir,Pride of Aesir,https://conanexilesmap.com/conanexilesdb/Icons/icon_legendary_male_ymir_chest.png,None,FALSE,60,0,(Armor),"-5,256,751,014",-9.21379E+24,FALSE,0,None
+91330,Stygian Alchemy,Stygian Alchemy,https://conanexilesmap.com/conanexilesdb/Icons/icon_potion_of_vehemence_elixir.png,None,FALSE,15,0,(Survival),-89103,-899222,FALSE,0,None
+91331,Weapon Oils,Weapon Oils,https://conanexilesmap.com/conanexilesdb/Icons/icon_OilOfAgony.png,None,FALSE,60,0,(Survival),-89103,-8.99224E+29,FALSE,0,None
+91332,Grandmaster Armorsmith,Grandmaster Armorsmith,https://conanexilesmap.com/conanexilesdb/Icons/icon_MasterPlatingKit.png,None,FALSE,60,0,(Armor),"-4,106,651,015",-8.99231E+17,FALSE,0,None
+91333,Grandmaster Weaponsmith,Grandmaster Weaponsmith,https://conanexilesmap.com/conanexilesdb/Icons/icon_SlayingKit.png,None,FALSE,60,0,(Combat),"-4,105,151,015",-8.99229E+17,FALSE,0,None
+95000,Dredger,Dredger,https://conanexilesmap.com/conanexilesdb/Icons/icon_sewer_dungeon_feat.png,None,FALSE,10,0,(Survival),-1,-4.10355E+29,FALSE,0,None
+95001,Herpetology,Herpetology,https://conanexilesmap.com/conanexilesdb/Icons/icon_crocodile_armor_chestpiece.png,None,FALSE,30,0,(Armor),-8,-5.20185E+24,FALSE,0,None
+95002,Abysmal Sword,Abysmal Sword,https://conanexilesmap.com/conanexilesdb/Icons/icon_sewerbeast_sword.png,None,FALSE,30,0,(Combat),-4,-51958,FALSE,0,None
+95003,Totems,Totems,https://conanexilesmap.com/conanexilesdb/Icons/icon_major_totem_a.png,None,FALSE,10,0,(Decoration),-80200,-8.88939E+19,FALSE,0,None
+95004,Abysmal Dagger,Abysmal Dagger,https://conanexilesmap.com/conanexilesdb/Icons/icon_sewerbeast_dagger.png,None,FALSE,30,0,(Combat),-51951,-51957,FALSE,0,None
+95005,Abysmal Arrows,Abysmal Arrows,https://conanexilesmap.com/conanexilesdb/Icons/icon_sewerbeast_arrow.png,None,FALSE,30,0,(Combat),-6,-53652,FALSE,0,None

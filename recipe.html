@@ -17,7 +17,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" href="img/fav.png" sizes="32x32" />
 	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/icon.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/navigation.css">
 	<title>Conan Scrolls - Recipes</title>
@@ -69,7 +70,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-2"><img src="{{item.Icon}}" alt="" class="img-thumbnail img-responsive mb-4"></div>
+					<div class="col-md-2"><img src="{{item.Icon}}" alt="" class="img-thumbnail-icon img-responsive mb-4"></div>
 					<div class="col-md-10">
                         <p class="short-desc mb-0">{{{item.ShortDesc}}}</p>
                         <br>
@@ -210,7 +211,7 @@
 			function getItem(id) {
 
 				$.getJSON('recipe.json', function(data) {
-					$.getJSON('data.json', function(data3) {
+					$.getJSON('item.json', function(data3) {
 					var self = $(this);
 						$.each(data, function(key, value){
 							if (value.RowName == id)
@@ -330,7 +331,7 @@
 						var self = $(this);
 						var id = self.data('id');
 						location.href = 'item.html?id=' + id;
-						$.getJSON('data.json', function(data) {
+						$.getJSON('item.json', function(data) {
 							$.each(data, function(key, value){
 								if (value.RowName == id) doJob(value, self);
 							});
